@@ -1,0 +1,50 @@
+[
+  {
+    "questionId": "96119d45-df39-4af7-95e0-772c4a0ff011",
+    "version": 1,
+    "questionType": "SINGLE_CHOICE",
+    "stem": "下列哪个化合物是细胞中含量最多的有机化合物？",
+    "options": [
+      {
+        "key": "A",
+        "value": "水"
+      },
+      {
+        "key": "B",
+        "value": "蛋白质"
+      },
+      {
+        "key": "C",
+        "value": "糖类"
+      },
+      {
+        "key": "D",
+        "value": "脂质"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "细胞中含量最多的化合物是水，但含量最多的有机化合物是蛋白质。",
+    "metadata": {
+      "knowledgePointIds": [
+        "BIO-B1-C02-S01-T02-A02"
+      ],
+      "difficulty": 2,
+      "source": "章节练习",
+      "tags": [
+        "有机物",
+        "含量"
+      ]
+    },
+    "personalData": {
+      "isWrong": false,
+      "myAnswer": [],
+      "wrongReason": null,
+      "notes": "",
+      "reviewStatus": "NOT_PRACTICED",
+      "reviewHistory": []
+    },
+    "importTimestampUTC": "2025-09-30T13:22:35.143749"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "questionId": "TEMP-ID-01",
+  "version": 1,
+  "questionType": "SINGLE_CHOICE",
+  "stem": "组成细胞的最基本元素是？",
+  "options": [
+    { "key": "A", "value": "C, H, O" },
+    { "key": "B", "value": "C, H, O, N" },
+    { "key": "C", "value": "N, P, S" },
+    { "key": "D", "value": "O, Si, Al" }
+  ],
+  "answer": ["B"],
+  "explanation": "C、H、O、N四种元素的含量占细胞总重量的96%以上，被称为最基本元素。",
+  "metadata": {
+    "knowledgePointIds": ["BIO-B1-C02-S01-T01-A03"],
+    "difficulty": 1,
+    "source": "模拟题",
+    "tags": ["最基本元素"]
+  },
+  "personalData": {
+    "isWrong": false,
+    "myAnswer": [],
+    "wrongReason": null,
+    "notes": "",
+    "reviewStatus": "NOT_PRACTICED",
+    "reviewHistory": []
+  }
+}
