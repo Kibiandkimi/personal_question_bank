@@ -1,0 +1,26 @@
+[
+  {
+    "questionId": "TEMP-BATCH-01",
+    "questionType": "SINGLE_CHOICE",
+    "stem": "在细胞中含量最多的化合物是？",
+    "options": [{"key": "A", "value": "水"}, {"key": "B", "value": "蛋白质"}],
+    "answer": ["A"],
+    "metadata": { "knowledgePointIds": ["BIO-B1-C02-S01-T02-A01"] }
+  },
+  {
+    "questionId": "TEMP-BATCH-02",
+    "questionType": "SINGLE_CHOICE",
+    "stem": "下列哪个属于微量元素？",
+    "options": [{"key": "A", "value": "C"}, {"key": "B", "value": "Fe"}],
+    "answer": ["B"],
+    "metadata": { "knowledgePointIds": ["BIO-B1-C02-S01-T01-A08"] }
+  },
+  {
+    "questionId": "TEMP-BATCH-03",
+    "questionType": "SINGLE_CHOICE",
+    "stem": "蛋白质与双缩脲试剂反应，产生什么颜色？",
+    "options": [{"key": "A", "value": "砖红色"}, {"key": "B", "value": "紫色"}],
+    "answer": ["B"],
+    "metadata": { "knowledgePointIds": ["BIO-B1-C02-S01-T03-A05"] }
+  }
+]

@@ -46,5 +46,77 @@
       "reviewHistory": []
     },
     "importTimestampUTC": "2025-09-30T13:22:35.143749"
+  },
+  {
+    "questionId": "53204006-1b15-4566-85e9-aae154fcd675",
+    "questionType": "SINGLE_CHOICE",
+    "stem": "在细胞中含量最多的化合物是？",
+    "options": [
+      {
+        "key": "A",
+        "value": "水"
+      },
+      {
+        "key": "B",
+        "value": "蛋白质"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "metadata": {
+      "knowledgePointIds": [
+        "BIO-B1-C02-S01-T02-A01"
+      ]
+    },
+    "importTimestampUTC": "2025-10-11T12:41:28.411575"
+  },
+  {
+    "questionId": "e73ac8b8-0394-4a5b-bbcd-758a09a8c80d",
+    "questionType": "SINGLE_CHOICE",
+    "stem": "下列哪个属于微量元素？",
+    "options": [
+      {
+        "key": "A",
+        "value": "C"
+      },
+      {
+        "key": "B",
+        "value": "Fe"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "metadata": {
+      "knowledgePointIds": [
+        "BIO-B1-C02-S01-T01-A08"
+      ]
+    },
+    "importTimestampUTC": "2025-10-11T12:41:28.411592"
+  },
+  {
+    "questionId": "ea921a02-5c3b-45d8-b6b6-9cea39b8fa8b",
+    "questionType": "SINGLE_CHOICE",
+    "stem": "蛋白质与双缩脲试剂反应，产生什么颜色？",
+    "options": [
+      {
+        "key": "A",
+        "value": "砖红色"
+      },
+      {
+        "key": "B",
+        "value": "紫色"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "metadata": {
+      "knowledgePointIds": [
+        "BIO-B1-C02-S01-T03-A05"
+      ]
+    },
+    "importTimestampUTC": "2025-10-11T12:41:28.411599"
   }
 ]

@@ -1,145 +1,219 @@
 import json
 import os
-from typing import Dict, Any, Optional
+from typing import List, Dict, Any, Optional
+from collections import defaultdict
 
 class KnowledgePointManager:
     """
-    知识点管理器类。
-    负责加载知识点数据，并提供查询和展示功能。
+    知识点管理器类 (重构版)。
+    支持多种导入模式。
     """
 
-    def __init__(self, data_file_path: str):
-        """
-        初始化管理器。
-
-        Args:
-            data_file_path: knowledge_points.json 文件的路径。
-        """
-        self.data_file_path = data_file_path
-        self.kp_data: Dict[str, Any] = {}
-        # 核心索引：用于通过 KPID 快速查找原子知识点
+    def __init__(self, db_path: str):
+        self.db_path = db_path
+        self.kps: List[Dict[str, Any]] = []
         self.kp_index: Dict[str, Dict[str, Any]] = {}
         self._load_data()
 
     def _load_data(self):
-        """
-        从 JSON 文件加载数据，并构建 KPID 索引。
-        这是一个内部方法，在初始化时自动调用。
-        """
-        if not os.path.exists(self.data_file_path):
-            raise FileNotFoundError(f"知识点数据文件未找到: {self.data_file_path}")
+        if not os.path.exists(self.db_path):
+            with open(self.db_path, 'w', encoding='utf-8') as f:
+                json.dump([], f)
 
         try:
-            with open(self.data_file_path, 'r', encoding='utf-8') as f:
-                self.kp_data = json.load(f)
+            with open(self.db_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+                self.kps = json.loads(content) if content else []
         except json.JSONDecodeError:
-            raise ValueError(f"无法解析 JSON 文件: {self.data_file_path}，请检查文件格式。")
+            raise ValueError(f"无法解析 JSON 文件: {self.db_path}")
 
-        # 加载数据后，立即构建索引
         self._build_index()
 
     def _build_index(self):
-        """
-        遍历嵌套的知识点数据结构，构建 KPID 到原子知识点的映射索引。
-        """
-        self.kp_index = {} # 重置索引
+        self.kp_index = {kp['kpid']: kp for kp in self.kps}
 
-        # 遍历 章 (Chapter)
-        for chapter_name, sections in self.kp_data.items():
-            # 遍历 节 (Section)
-            for section_name, topics in sections.items():
-                # 遍历 主题 (Topic)
-                for topic in topics:
-                    atomic_kps = topic.get("原子知识点列表", [])
-                    # 遍历 原子知识点 (Atomic KP)
-                    for akp in atomic_kps:
-                        kpid = akp.get("知识点编码 (KPID)")
-                        if kpid:
-                            # 将原子知识点存入索引，并附加上层级信息，方便后续使用
-                            akp_with_context = akp.copy()
-                            akp_with_context["_context"] = {
-                                "chapter": chapter_name,
-                                "section": section_name,
-                                "topic": topic.get("知识点主题")
-                            }
-                            self.kp_index[kpid] = akp_with_context
+    def _save_database(self):
+        """将当前内存中的知识点数据写入到 JSON 文件中。"""
+        try:
+            with open(self.db_path, 'w', encoding='utf-8') as f:
+                json.dump(self.kps, f, ensure_ascii=False, indent=2)
+        except IOError as e:
+            raise IOError(f"写入数据库文件 '{self.db_path}' 失败: {e}")
 
     def get_kp_by_id(self, kpid: str) -> Optional[Dict[str, Any]]:
-        """
-        通过 KPID 查找对应的原子知识点详细信息。
-
-        Args:
-            kpid: 知识点编码，例如 "BIO-B1-C02-S01-T01-A01"
-
-        Returns:
-            包含原子知识点信息的字典，如果未找到则返回 None。
-        """
         return self.kp_index.get(kpid)
 
     def print_outline(self):
+        print("===== 知识点大纲 (树状图) =====")
+        if not self.kps:
+            print("知识点库为空。")
+            print("================================")
+            return
+
+        children_map = defaultdict(list)
+        for kp in self.kps:
+            children_map[kp.get('parentId')].append(kp)
+
+        def _print_recursive(parent_id: Optional[str], prefix: str):
+            children = sorted(children_map.get(parent_id, []), key=lambda x: x['kpid'])
+            for i, child in enumerate(children):
+                is_last = i == len(children) - 1
+                connector = "└─ " if is_last else "├─ "
+                display_text = child.get('title') or child.get('content', '')
+                short_text = (display_text[:40] + '...') if len(display_text) > 40 else display_text
+                print(f"{prefix}{connector}[{child.get('type', 'N/A')}] {child['kpid']} - {short_text}")
+                new_prefix = prefix + ("    " if is_last else "│   ")
+                _print_recursive(child['kpid'], new_prefix)
+
+        _print_recursive(None, "")
+        print("================================")
+
+    def get_ancestry(self, kpid: str) -> List[Dict[str, Any]]:
+        ancestry = []
+        current_kp = self.get_kp_by_id(kpid)
+        while current_kp:
+            ancestry.append(current_kp)
+            parent_id = current_kp.get('parentId')
+            if parent_id:
+                current_kp = self.get_kp_by_id(parent_id)
+            else:
+                break
+        return list(reversed(ancestry))
+
+    # --- 重构后的导入方法 ---
+    def import_from_file(self, filepath: str, mode: str = 'merge') -> Dict[str, int]:
         """
-        以树状结构打印出整个知识点大纲。
+        从JSON文件导入知识点体系，支持多种导入模式。
+
+        Args:
+            filepath: 新知识点体系的JSON文件路径。
+            mode: 导入模式 ('replace', 'append', 'merge')。
+
+        Returns:
+            一个包含操作摘要的字典, e.g., {'added': 10, 'updated': 5, 'skipped': 3, 'total': 28}
         """
-        print("===== 知识点大纲 =====")
-        for chapter_name, sections in self.kp_data.items():
-            print(f"📖 {chapter_name}")
-            for section_name, topics in sections.items():
-                print(f"  └─ 🔖 {section_name}")
-                for topic in topics:
-                    topic_name = topic.get("知识点主题", "未命名主题")
-                    print(f"      └─ 💡 {topic_name}")
-                    atomic_kps = topic.get("原子知识点列表", [])
-                    for akp in atomic_kps:
-                        kpid = akp.get("知识点编码 (KPID)", "No ID")
-                        statement = akp.get("原子知识点 (陈述句)", "")
-                        # 截取过长的陈述句以便展示
-                        short_statement = (statement[:30] + '...') if len(statement) > 30 else statement
-                        print(f"          └─ [{kpid}] {short_statement}")
-        print("======================")
+        # 1. 读取并验证新文件
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                new_kps = json.load(f)
+        except Exception as e:
+            raise ValueError(f"读取或解析文件 '{filepath}' 失败: {e}")
+
+        if not isinstance(new_kps, list):
+            raise TypeError("导入失败: 文件内容必须是一个JSON对象列表。")
+
+        summary = {'added': 0, 'updated': 0, 'skipped': 0}
+
+        # 2. 根据模式执行逻辑
+        if mode == 'replace':
+            self.kps = new_kps
+            summary['added'] = len(new_kps)
+
+        elif mode in ['append', 'merge']:
+            # 为了效率，预先构建现有kpid的集合和索引映射
+            existing_kpid_set = {kp['kpid'] for kp in self.kps}
+            kpid_to_index_map = {kp['kpid']: i for i, kp in enumerate(self.kps)}
+
+            for new_kp in new_kps:
+                kpid = new_kp.get('kpid')
+                if not kpid:
+                    summary['skipped'] += 1
+                    continue
+
+                if kpid in existing_kpid_set:
+                    if mode == 'append':
+                        summary['skipped'] += 1
+                    else: # mode == 'merge'
+                        idx = kpid_to_index_map[kpid]
+                        self.kps[idx] = new_kp
+                        summary['updated'] += 1
+                else:
+                    self.kps.append(new_kp)
+                    summary['added'] += 1
+        else:
+            raise ValueError(f"未知的导入模式: '{mode}'")
+
+        # 3. 保存并重建索引
+        self._save_database()
+        self._build_index()
+
+        summary['total'] = len(self.kps)
+        return summary
 
 # --- 以下是用于测试的代码 ---
 if __name__ == "__main__":
-    # 定义数据文件的相对路径
-    # 注意：我们假设从项目根目录运行此脚本
-    DATA_FILE = os.path.join("data", "knowledge_points.json")
+    # --- 测试设置 ---
+    BASE_DATA = [
+        {"kpid": "BIO-01", "title": "生物知识点1 (原始)", "parentId": "BIO"},
+        {"kpid": "BIO-02", "title": "生物知识点2", "parentId": "BIO"},
+    ]
+    IMPORT_DATA = [
+        {"kpid": "BIO-01", "title": "生物知识点1 (已更新)", "parentId": "BIO"}, #  更新
+        {"kpid": "BIO-03", "title": "生物知识点3 (新增)", "parentId": "BIO"}, #  新增
+    ]
+    TEST_DB_PATH = "temp_test_db.json"
+    TEST_IMPORT_PATH = "temp_test_import.json"
 
-    print(f"正在尝试加载数据文件: {DATA_FILE}")
+    def setup_files():
+        with open(TEST_DB_PATH, 'w', encoding='utf-8') as f:
+            json.dump(BASE_DATA, f)
+        with open(TEST_IMPORT_PATH, 'w', encoding='utf-8') as f:
+            json.dump(IMPORT_DATA, f)
 
+    def cleanup_files():
+        if os.path.exists(TEST_DB_PATH): os.remove(TEST_DB_PATH)
+        if os.path.exists(TEST_IMPORT_PATH): os.remove(TEST_IMPORT_PATH)
+
+    # --- 测试函数 ---
+    def test_replace_mode():
+        print("\n--- 测试 'replace' 模式 ---")
+        setup_files()
+        manager = KnowledgePointManager(TEST_DB_PATH)
+        summary = manager.import_from_file(TEST_IMPORT_PATH, mode='replace')
+
+        assert summary['added'] == 2
+        assert summary['updated'] == 0
+        assert summary['skipped'] == 0
+        assert summary['total'] == 2
+        assert manager.get_kp_by_id("BIO-02") is None # 旧数据已被删除
+        print("✅ 'replace' 模式测试通过！")
+        cleanup_files()
+
+    def test_append_mode():
+        print("\n--- 测试 'append' 模式 ---")
+        setup_files()
+        manager = KnowledgePointManager(TEST_DB_PATH)
+        summary = manager.import_from_file(TEST_IMPORT_PATH, mode='append')
+
+        assert summary['added'] == 1      # BIO-03
+        assert summary['updated'] == 0
+        assert summary['skipped'] == 1    # BIO-01
+        assert summary['total'] == 3      # BIO-01, BIO-02, BIO-03
+        assert manager.get_kp_by_id("BIO-01")['title'] == "生物知识点1 (原始)" # 未被更新
+        print("✅ 'append' 模式测试通过！")
+        cleanup_files()
+
+    def test_merge_mode():
+        print("\n--- 测试 'merge' 模式 ---")
+        setup_files()
+        manager = KnowledgePointManager(TEST_DB_PATH)
+        summary = manager.import_from_file(TEST_IMPORT_PATH, mode='merge')
+
+        assert summary['added'] == 1      # BIO-03
+        assert summary['updated'] == 1    # BIO-01
+        assert summary['skipped'] == 0
+        assert summary['total'] == 3      # BIO-01, BIO-02, BIO-03
+        assert manager.get_kp_by_id("BIO-01")['title'] == "生物知识点1 (已更新)" # 已被更新
+        print("✅ 'merge' 模式测试通过！")
+        cleanup_files()
+
+    # --- 运行所有测试 ---
     try:
-        # 1. 初始化管理器
-        kp_manager = KnowledgePointManager(DATA_FILE)
-        print("✅ 知识点管理器初始化成功！")
-
-        # 2. 测试打印大纲
-        print("\n--- 测试功能 1: 打印大纲 ---")
-        kp_manager.print_outline()
-
-        # 3. 测试通过 KPID 查找
-        print("\n--- 测试功能 2: 通过 KPID 查找 ---")
-        test_kpid = "BIO-B1-C02-S01-T01-A01"
-        print(f"正在查找 KPID: {test_kpid}")
-        kp = kp_manager.get_kp_by_id(test_kpid)
-
-        if kp:
-            print("✅ 找到知识点:")
-            # 使用 json.dumps 漂亮地打印字典
-            print(json.dumps(kp, ensure_ascii=False, indent=2))
-        else:
-            print(f"❌ 未找到 KPID 为 {test_kpid} 的知识点。")
-
-        # 4. 测试查找一个不存在的 KPID
-        print("\n--- 测试功能 3: 查找不存在的 KPID ---")
-        test_kpid_not_exist = "BIO-XXXXX"
-        print(f"正在查找 KPID: {test_kpid_not_exist}")
-        kp_not_exist = kp_manager.get_kp_by_id(test_kpid_not_exist)
-        if kp_not_exist:
-             print("❌ 错误：不应该找到这个知识点。")
-        else:
-             print(f"✅ 正确：未找到 KPID 为 {test_kpid_not_exist} 的知识点。")
-
-
-    except FileNotFoundError as e:
-        print(f"❌ 错误: {e}")
-        print("请确保你是在项目根目录 'personal_question_bank' 下运行此脚本。")
-    except Exception as e:
-        print(f"❌ 发生未知错误: {e}")
+        test_replace_mode()
+        test_append_mode()
+        test_merge_mode()
+        print("\n🎉 所有测试用例均已通过！")
+    except AssertionError as e:
+        print(f"❌ 测试失败: {e}")
+    finally:
+        cleanup_files()

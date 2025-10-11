@@ -1,0 +1,26 @@
+[
+  {
+    "kpid": "MATH",
+    "type": "SUBJECT",
+    "title": "数学",
+    "parentId": null
+  },
+  {
+    "kpid": "MATH-ALG",
+    "type": "FIELD",
+    "title": "代数",
+    "parentId": "MATH"
+  },
+  {
+    "kpid": "MATH-ALG-EQ",
+    "type": "CHAPTER",
+    "title": "方程",
+    "parentId": "MATH-ALG"
+  },
+  {
+    "kpid": "MATH-ALG-EQ-A01",
+    "type": "ATOMIC",
+    "content": "一元一次方程的标准形式是 ax + b = 0 (a ≠ 0)。",
+    "parentId": "MATH-ALG-EQ"
+  }
+]
