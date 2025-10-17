@@ -6,8 +6,8 @@ from typing import List, Dict, Any, Optional
 
 class QuestionManager:
     """
-    题目管理器类 (重构版)。
-    支持单个或批量题目导入。
+    题目管理器类 (架构升级版)。
+    原生支持层级题目结构 (母题/子题)。
     """
 
     def __init__(self, database_path: str):
@@ -33,7 +33,6 @@ class QuestionManager:
         except IOError as e:
             print(f"错误: 无法写入数据库文件 '{self.database_path}': {e}")
 
-    # --- 新增的私有核心方法 ---
     def _add_question_object(self, question_data: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         """
         处理单个题目对象：生成ID、添加时间戳并添加到内存中。
@@ -47,58 +46,42 @@ class QuestionManager:
         if not isinstance(question_data, dict):
             return None
 
-        # 1. 生成唯一的 UUID 替换原有的 questionId
-        new_id = str(uuid.uuid4())
-        question_data['questionId'] = new_id
+        if 'structureType' not in question_data or 'parentId' not in question_data:
+            print(f"警告: 导入的题目 (ID: {question_data.get('questionId', 'N/A')}) 缺少层级字段。将自动设置为独立的原子题。")
+            question_data.setdefault('structureType', 'ATOMIC')
+            question_data.setdefault('parentId', None)
 
-        # 2. 添加导入时间戳
+        question_data['questionId'] = str(uuid.uuid4())
         question_data['importTimestampUTC'] = datetime.utcnow().isoformat()
-
-        # 3. 将处理后的题目添加到内存列表
         self.questions.append(question_data)
-
         return question_data
 
-    # --- 重构后的导入方法 ---
-    def import_question_from_file(self, source_file_path: str) -> int:
+    def import_question_from_file(self, source_file_path: str) -> List[Dict[str, Any]]:
         """
-        从 JSON 文件导入一道或多道题目到题库中。
-        文件内容可以是单个JSON对象，也可以是JSON对象组成的列表。
-
-        Args:
-            source_file_path: 源 JSON 文件路径。
-
-        Returns:
-            成功导入的题目数量。
+        从 JSON 文件导入题目，返回所有成功导入的题目对象列表。
         """
         try:
             with open(source_file_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
         except (FileNotFoundError, json.JSONDecodeError) as e:
             print(f"错误: 无法读取或解析文件 '{source_file_path}': {e}")
-            return 0
+            return []
 
-        imported_count = 0
-
-        # 判断数据是单个对象还是对象列表
+        imported_questions = []
         if isinstance(data, dict):
-            # 单个题目
-            if self._add_question_object(data):
-                imported_count = 1
+            new_question = self._add_question_object(data)
+            if new_question:
+                imported_questions.append(new_question)
         elif isinstance(data, list):
-            # 批量题目
             for question_obj in data:
-                if self._add_question_object(question_obj):
-                    imported_count += 1
-        else:
-            print(f"错误: 文件 '{source_file_path}' 的根结构必须是JSON对象或JSON数组。")
-            return 0
+                new_question = self._add_question_object(question_obj)
+                if new_question:
+                    imported_questions.append(new_question)
 
-        # 仅在成功导入至少一个题目后才保存
-        if imported_count > 0:
+        if imported_questions:
             self._save_database()
 
-        return imported_count
+        return imported_questions
 
     def get_question_by_id(self, question_id: str) -> Optional[Dict[str, Any]]:
         for q in self.questions:
@@ -106,12 +89,37 @@ class QuestionManager:
                 return q
         return None
 
-    def get_questions_by_kpid(self, kpid: str) -> List[Dict[str, Any]]:
-        matched_questions = []
-        for q in self.questions:
-            if kpid in q.get('metadata', {}).get('knowledgePointIds', []):
-                matched_questions.append(q)
-        return matched_questions
-
     def get_total_questions(self) -> int:
         return len(self.questions)
+
+    def get_children(self, parent_id: str) -> List[Dict[str, Any]]:
+        return [q for q in self.questions if q.get('parentId') == parent_id]
+
+    def get_full_question_context(self, question_id: str) -> Dict[str, Any]:
+        """
+        获取指定题目的完整上下文（本身、母题、子题）。
+
+        Args:
+            question_id: 任意一个题目的 questionId。
+
+        Returns:
+            一个包含上下文信息的字典: {'target': ..., 'parent': ..., 'children': ...}
+        """
+        context = {
+            "target": None,
+            "parent": None,
+            "children": []
+        }
+
+        target_question = self.get_question_by_id(question_id)
+        if not target_question:
+            return context
+
+        context['target'] = target_question
+        parent_id = target_question.get('parentId')
+        if parent_id:
+            context['parent'] = self.get_question_by_id(parent_id)
+        if target_question.get('structureType') == 'COMPOSITE':
+            context['children'] = self.get_children(question_id)
+
+        return context

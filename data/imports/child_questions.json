@@ -1,0 +1,19 @@
+[
+  {
+    "questionId": "temp-child-1",
+    "structureType": "ATOMIC",
+    "parentId": "7374a0d0-6488-4418-97f8-0818e43a6ed8",
+    "questionType": "SINGLE_CHOICE",
+    "stem": "在生态系统中，谁负责将光能转化为化学能？",
+    "options": [{"key": "A", "value": "生产者"}, {"key": "B", "value": "消费者"}],
+    "answer": ["A"]
+  },
+  {
+    "questionId": "temp-child-2",
+    "structureType": "ATOMIC",
+    "parentId": "7374a0d0-6488-4418-97f8-0818e43a6ed8",
+    "questionType": "FILL_IN_THE_BLANK",
+    "stem": "分解者的主要作用是什么？",
+    "answer": ["分解有机物"]
+  }
+]

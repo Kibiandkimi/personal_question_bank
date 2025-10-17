@@ -28,7 +28,6 @@ def outline():
     """显示完整的知识点大纲树状图。"""
     kp_manager.print_outline()
 
-# --- 升级后的 import-kps 命令 ---
 @cli.command(name='import-kps')
 @click.argument('filepath', type=click.Path(exists=True, dir_okay=False, resolve_path=True))
 @click.option(
@@ -41,11 +40,8 @@ def outline():
     )
 )
 def import_kps(filepath, mode):
-    """
-    从文件导入知识点体系，支持多种导入模式。
-    """
+    """从文件导入知识点体系，支持多种导入模式。"""
     try:
-        # 仅在 replace 模式下要求二次确认
         if mode == 'replace':
             click.confirm(
                 '⚠️ 警告: "replace"模式将完全覆盖你当前的知识点体系。确定要继续吗?',
@@ -69,25 +65,28 @@ def import_kps(filepath, mode):
     except Exception as e:
         click.secho(f"❌ 导入失败: {e}", fg='red')
 
-
 @cli.command(name='import')
 @click.argument('filepath', type=click.Path(exists=True, dir_okay=False, resolve_path=True))
 def import_question(filepath):
-    """
-    导入单个或批量的题目JSON文件到题库。
-
-    FILEPATH: 待导入的题目JSON文件的路径。
-    文件内容可以是单个题目对象，也可以是题目对象组成的数组。
-    """
+    """导入单个或批量的题目JSON文件到题库。"""
     click.echo(f"正在从 '{os.path.basename(filepath)}' 导入题目...")
-    imported_count = question_manager.import_question_from_file(filepath)
+
+    imported_results = question_manager.import_question_from_file(filepath)
+    imported_count = len(imported_results)
+
     if imported_count > 0:
         click.secho(f"✅ 成功导入 {imported_count} 道题目！", fg='green')
+
+        # 对于小批量导入，显示所有新ID
+        if 1 <= imported_count <= 5:
+            click.echo("   新题目 ID 列表:")
+            for result in imported_results:
+                click.echo(f"     - {result.get('questionId')}")
+
         click.echo(f"   当前题库总数: {question_manager.get_total_questions()}")
     else:
         click.secho(f"❌ 导入失败。请检查文件内容和格式。", fg='red')
 
-# (find 和 show 命令无变化)
 @cli.command()
 @click.option('--kpid', required=True, help='要查找的知识点编码 (KPID)。')
 def find(kpid):
@@ -115,14 +114,33 @@ def find(kpid):
 @cli.command()
 @click.argument('question_id')
 def show(question_id):
-    """显示指定题目的完整详细信息。"""
-    question = question_manager.get_question_by_id(question_id)
-    if question:
-        click.secho(f"📖 题目详情 ({question_id}):", fg='cyan')
-        formatted_json = json.dumps(question, ensure_ascii=False, indent=2)
-        click.echo(formatted_json)
-    else:
+    """显示指定题目的完整信息及其上下文（母题/子题）。"""
+    context = question_manager.get_full_question_context(question_id)
+    target_question = context.get('target')
+
+    if not target_question:
         click.secho(f"❌ 未找到 ID 为 '{question_id}' 的题目。", fg='red')
+        return
+
+    if context.get('parent'):
+        parent = context['parent']
+        click.secho("\n--- PARENT MATERIAL --------------------------", fg='yellow')
+        click.echo(f"Parent ID: {parent.get('questionId')}")
+        click.echo(f"Material: {parent.get('stem')}")
+        click.secho("------------------------------------------\n", fg='yellow')
+
+    click.secho(f"--- TARGET QUESTION (ID: {target_question.get('questionId')}) ---", fg='cyan')
+    formatted_json = json.dumps(target_question, ensure_ascii=False, indent=2)
+    click.echo(formatted_json)
+    click.secho("--------------------------------------------------", fg='cyan')
+
+    if context.get('children'):
+        children = context['children']
+        click.secho("\n--- CHILDREN OF THIS QUESTION ----------------", fg='yellow')
+        for child in children:
+            click.echo(f"  - Child ID: {child.get('questionId')}")
+            click.echo(f"    Stem: {child.get('stem')}")
+        click.secho("------------------------------------------", fg='yellow')
 
 if __name__ == '__main__':
     cli()

@@ -1,0 +1,7 @@
+{
+  "questionId": "temp-parent-id",
+  "structureType": "COMPOSITE",
+  "parentId": null,
+  "stem": "材料：生态系统由生产者、消费者、分解者和非生物环境组成。",
+  "metadata": { "knowledgePointIds": ["ECO-01"] }
+}
