@@ -342,5 +342,1222 @@
     ],
     "suggestedExamType": "概念辨析",
     "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02",
+    "type": "SECTION",
+    "title": "第2节：细胞的多样性和统一性",
+    "parentId": "BIO-B1-C01"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T01",
+    "type": "TOPIC",
+    "title": "细胞的多样性与统一性概述",
+    "parentId": "BIO-B1-C01-S02"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T01-A01",
+    "type": "ATOMIC",
+    "content": "生物界的细胞形态、大小、结构多种多样，体现了细胞的多样性。",
+    "parentId": "BIO-B1-C01-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T01-A02"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T01-A02",
+    "type": "ATOMIC",
+    "content": "不同种类的细胞都具有相似的基本结构，如细胞膜、细胞质等，这体现了细胞的统一性。",
+    "parentId": "BIO-B1-C01-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T01-A01",
+      "BIO-B1-C01-S02-T02-A14",
+      "BIO-B1-C01-S02-T02-A15"
+    ],
+    "suggestedExamType": "概念理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02",
+    "type": "TOPIC",
+    "title": "原核细胞和真核细胞",
+    "parentId": "BIO-B1-C01-S02"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A01",
+    "type": "ATOMIC",
+    "content": "根据细胞内有无以核膜为界限的细胞核，可将细胞分为原核细胞和真核细胞两大类。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A02",
+      "BIO-B1-C01-S02-T02-A03"
+    ],
+    "suggestedExamType": "核心概念 / 分类依据",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A02",
+    "type": "ATOMIC",
+    "content": "真核细胞具有以核膜为界限的、成形的细胞核。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A01",
+      "BIO-B1-C01-S02-T02-A03"
+    ],
+    "suggestedExamType": "概念辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A03",
+    "type": "ATOMIC",
+    "content": "原核细胞没有以核膜为界限的细胞核。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A01",
+      "BIO-B1-C01-S02-T02-A02",
+      "BIO-B1-C01-S02-T02-A06"
+    ],
+    "suggestedExamType": "概念辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A04",
+    "type": "ATOMIC",
+    "content": "由真核细胞构成的生物称为真核生物，如植物、动物、真菌等。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A02"
+    ],
+    "suggestedExamType": "事实记忆 / 举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A05",
+    "type": "ATOMIC",
+    "content": "由原核细胞构成的生物称为原核生物，如细菌、蓝细菌（蓝藻）等。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A03"
+    ],
+    "suggestedExamType": "事实记忆 / 举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A06",
+    "type": "ATOMIC",
+    "content": "原核细胞的遗传物质（一个环状DNA分子）所在的区域称为拟核。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A03",
+      "BIO-B1-C01-S02-T02-A07"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A07",
+    "type": "ATOMIC",
+    "content": "原核细胞没有染色体。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A06",
+      "BIO-B1-C01-S02-T02-A08"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A08",
+    "type": "ATOMIC",
+    "content": "真核细胞的DNA主要和蛋白质结合形成染色体，存在于细胞核中。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A07"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A09",
+    "type": "ATOMIC",
+    "content": "原核细胞中唯一的细胞器是核糖体。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A10",
+      "BIO-B1-C01-S02-T02-A16"
+    ],
+    "suggestedExamType": "事实记忆 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A10",
+    "type": "ATOMIC",
+    "content": "真核细胞含有核糖体、线粒体、内质网等多种复杂的细胞器。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A09"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A11",
+    "type": "ATOMIC",
+    "content": "蓝细菌细胞内含有藻蓝素和叶绿素，是能进行光合作用的自养生物。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A05",
+      "BIO-B1-C01-S02-T02-A12"
+    ],
+    "suggestedExamType": "事实记忆 / 举例",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A12",
+    "type": "ATOMIC",
+    "content": "多数细菌是营腐生或寄生生活的异养生物。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A05",
+      "BIO-B1-C01-S02-T02-A11"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A13",
+    "type": "ATOMIC",
+    "content": "支原体是已知的最小的原核生物，其特殊之处在于没有细胞壁。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A05"
+    ],
+    "suggestedExamType": "特例辨析",
+    "suggestedDifficulty": "难"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A14",
+    "type": "ATOMIC",
+    "content": "原核细胞和真核细胞都具有细胞膜。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T01-A02",
+      "BIO-B1-C01-S02-T02-A15",
+      "BIO-B1-C01-S02-T02-A16",
+      "BIO-B1-C01-S02-T02-A17"
+    ],
+    "suggestedExamType": "统一性总结",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A15",
+    "type": "ATOMIC",
+    "content": "原核细胞和真核细胞都具有细胞质。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T01-A02",
+      "BIO-B1-C01-S02-T02-A14",
+      "BIO-B1-C01-S02-T02-A16",
+      "BIO-B1-C01-S02-T02-A17"
+    ],
+    "suggestedExamType": "统一性总结",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A16",
+    "type": "ATOMIC",
+    "content": "原核细胞和真核细胞都具有核糖体作为蛋白质合成的场所。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A09",
+      "BIO-B1-C01-S02-T02-A14",
+      "BIO-B1-C01-S02-T02-A15",
+      "BIO-B1-C01-S02-T02-A17"
+    ],
+    "suggestedExamType": "统一性总结 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T02-A17",
+    "type": "ATOMIC",
+    "content": "原核细胞和真核细胞都以DNA作为遗传物质。",
+    "parentId": "BIO-B1-C01-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T02-A14",
+      "BIO-B1-C01-S02-T02-A15",
+      "BIO-B1-C01-S02-T02-A16"
+    ],
+    "suggestedExamType": "统一性总结",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T03",
+    "type": "TOPIC",
+    "title": "实验：使用高倍显微镜观察几种细胞",
+    "parentId": "BIO-B1-C01-S02"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T03-A01",
+    "type": "ATOMIC",
+    "content": "高倍显微镜的使用步骤第一步是在低倍镜下找到清晰的物像。",
+    "parentId": "BIO-B1-C01-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T03-A02"
+    ],
+    "suggestedExamType": "操作步骤",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T03-A02",
+    "type": "ATOMIC",
+    "content": "高倍显微镜的使用步骤第二步是将要观察的目标移到视野中央。",
+    "parentId": "BIO-B1-C01-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T03-A01",
+      "BIO-B1-C01-S02-T03-A03"
+    ],
+    "suggestedExamType": "操作步骤",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T03-A03",
+    "type": "ATOMIC",
+    "content": "高倍显微镜的使用步骤第三步是转动转换器，换上高倍物镜。",
+    "parentId": "BIO-B1-C01-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T03-A02",
+      "BIO-B1-C01-S02-T03-A04"
+    ],
+    "suggestedExamType": "操作步骤",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T03-A04",
+    "type": "ATOMIC",
+    "content": "高倍显微镜的使用步骤第四步是调节反光镜和光圈使视野亮度适宜，并调节细准焦螺旋使物像清晰。",
+    "parentId": "BIO-B1-C01-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T03-A03",
+      "BIO-B1-C01-S02-T03-A05"
+    ],
+    "suggestedExamType": "操作步骤",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C01-S02-T03-A05",
+    "type": "ATOMIC",
+    "content": "使用高倍镜时，严禁使用粗准焦螺旋进行调焦。",
+    "parentId": "BIO-B1-C01-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C01-S02-T03-A04"
+    ],
+    "suggestedExamType": "操作规范 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02",
+    "type": "CHAPTER",
+    "title": "第2章：组成细胞的分子",
+    "parentId": "BIO-B1"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01",
+    "type": "SECTION",
+    "title": "第1节：细胞中的元素和化合物",
+    "parentId": "BIO-B1-C02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01",
+    "type": "TOPIC",
+    "title": "组成细胞的化学元素",
+    "parentId": "BIO-B1-C02-S01"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A01",
+    "type": "ATOMIC",
+    "content": "组成细胞的化学元素在无机自然界中都能找到，没有一种是细胞所特有的。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A02"
+    ],
+    "suggestedExamType": "概念辨析 / 统一性",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A02",
+    "type": "ATOMIC",
+    "content": "细胞中各种元素的相对含量与无机自然界中的含量差异很大，体现了生物界与非生物界的差异性。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A01"
+    ],
+    "suggestedExamType": "概念辨析 / 差异性",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A03",
+    "type": "ATOMIC",
+    "content": "在细胞鲜重中，含量最多的四种元素是O、C、H、N。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A04"
+    ],
+    "suggestedExamType": "事实记忆 / 比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A04",
+    "type": "ATOMIC",
+    "content": "在细胞干重中，含量最多的四种元素是C、O、N、H。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A03"
+    ],
+    "suggestedExamType": "事实记忆 / 比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A05",
+    "type": "ATOMIC",
+    "content": "C元素是构成有机物的基本骨架，是细胞中最基本的元素。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A04"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A06",
+    "type": "ATOMIC",
+    "content": "含量较多的元素（如C、H、O、N、P、S、K、Ca、Mg等）称为大量元素。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A07"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A07",
+    "type": "ATOMIC",
+    "content": "含量很少的元素（如Fe、Mn、Zn、Cu、B、Mo等）称为微量元素。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A06",
+      "BIO-B1-C02-S01-T01-A08"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A08",
+    "type": "ATOMIC",
+    "content": "微量元素含量虽少，但对维持生命活动至关重要。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A07"
+    ],
+    "suggestedExamType": "概念辨析 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T02",
+    "type": "TOPIC",
+    "title": "组成细胞的化合物",
+    "parentId": "BIO-B1-C02-S01"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T02-A01",
+    "type": "ATOMIC",
+    "content": "细胞中的化合物分为无机物和有机物两大类。",
+    "parentId": "BIO-B1-C02-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T02-A02",
+      "BIO-B1-C02-S01-T02-A03"
+    ],
+    "suggestedExamType": "分类",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T02-A02",
+    "type": "ATOMIC",
+    "content": "细胞中的无机物主要包括水和无机盐。",
+    "parentId": "BIO-B1-C02-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T02-A01"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T02-A03",
+    "type": "ATOMIC",
+    "content": "细胞中的有机物主要包括糖类、脂质、蛋白质和核酸。",
+    "parentId": "BIO-B1-C02-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T02-A01"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T02-A04",
+    "type": "ATOMIC",
+    "content": "细胞鲜重中含量最多的化合物是水。",
+    "parentId": "BIO-B1-C02-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T02-A05"
+    ],
+    "suggestedExamType": "事实记忆 / 比较辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T02-A05",
+    "type": "ATOMIC",
+    "content": "细胞鲜重中含量最多的有机物是蛋白质。",
+    "parentId": "BIO-B1-C02-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T02-A04"
+    ],
+    "suggestedExamType": "事实记忆 / 比较辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03",
+    "type": "TOPIC",
+    "title": "实验：检测生物组织中的糖类、脂肪和蛋白质",
+    "parentId": "BIO-B1-C02-S01"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A01",
+    "type": "ATOMIC",
+    "content": "还原糖（如葡萄糖）与斐林试剂在水浴加热条件下反应，生成砖红色沉淀。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A02",
+      "BIO-B1-C02-S01-T03-A03"
+    ],
+    "suggestedExamType": "实验原理",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A02",
+    "type": "ATOMIC",
+    "content": "斐林试剂由甲液(0.1g/mL NaOH)和乙液(0.05g/mL CuSO4)组成，必须等量混合、现配现用。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A01"
+    ],
+    "suggestedExamType": "实验操作 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A03",
+    "type": "ATOMIC",
+    "content": "还原糖检测实验需要50-65℃水浴加热。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A01"
+    ],
+    "suggestedExamType": "实验条件",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A04",
+    "type": "ATOMIC",
+    "content": "脂肪可以被苏丹Ⅲ染液染成橘黄色。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A05"
+    ],
+    "suggestedExamType": "实验原理",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A05",
+    "type": "ATOMIC",
+    "content": "检测脂肪时，可使用体积分数为50%的酒精溶液洗去浮色，以便观察。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A04"
+    ],
+    "suggestedExamType": "实验操作",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A06",
+    "type": "ATOMIC",
+    "content": "蛋白质与双缩脲试剂发生作用，产生紫色反应。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A07"
+    ],
+    "suggestedExamType": "实验原理",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A07",
+    "type": "ATOMIC",
+    "content": "使用双缩脲试剂时，应先加入A液(0.1g/mL NaOH)摇匀，再加入B液(0.01g/mL CuSO4)。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A06"
+    ],
+    "suggestedExamType": "实验操作 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A08",
+    "type": "ATOMIC",
+    "content": "蛋白质检测实验不需要加热。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A06"
+    ],
+    "suggestedExamType": "实验条件",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02",
+    "type": "SECTION",
+    "title": "第2节：细胞中的无机物",
+    "parentId": "BIO-B1-C02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01",
+    "type": "TOPIC",
+    "title": "细胞中的水",
+    "parentId": "BIO-B1-C02-S02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A01",
+    "type": "ATOMIC",
+    "content": "水是活细胞中含量最多的化合物，约占60%-95%。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A02",
+    "type": "ATOMIC",
+    "content": "水是细胞内良好的溶剂，许多物质能够在水中溶解。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A03",
+      "BIO-B1-C02-S02-T01-A08"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A03",
+    "type": "ATOMIC",
+    "content": "水分子是极性分子，其空间结构和电子不对称分布是其成为良好溶剂的原因。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A02"
+    ],
+    "suggestedExamType": "原理理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A04",
+    "type": "ATOMIC",
+    "content": "细胞内的许多生物化学反应都需要水的参与。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A08"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A05",
+    "type": "ATOMIC",
+    "content": "水在生物体内流动，可以运输营养物质和代谢废物。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A08"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A06",
+    "type": "ATOMIC",
+    "content": "水具有较高的比热容，对于维持生命系统的温度稳定具有重要作用。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [],
+    "suggestedExamType": "特性与功能",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A07",
+    "type": "ATOMIC",
+    "content": "细胞中的水以自由水和结合水两种形式存在。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A08",
+      "BIO-B1-C02-S02-T01-A09"
+    ],
+    "suggestedExamType": "概念分类",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A08",
+    "type": "ATOMIC",
+    "content": "自由水是细胞内可以自由流动的水，是细胞内良好的溶剂并参与化学反应。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A07",
+      "BIO-B1-C02-S02-T01-A02",
+      "BIO-B1-C02-S02-T01-A04",
+      "BIO-B1-C02-S02-T01-A11"
+    ],
+    "suggestedExamType": "概念与功能",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A09",
+    "type": "ATOMIC",
+    "content": "结合水是与细胞内其他物质相结合的水，是细胞结构的重要组成部分。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A07",
+      "BIO-B1-C02-S02-T01-A12"
+    ],
+    "suggestedExamType": "概念与功能",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A10",
+    "type": "ATOMIC",
+    "content": "细胞内自由水与结合水的比例影响细胞代谢的旺盛程度。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A11",
+      "BIO-B1-C02-S02-T01-A12"
+    ],
+    "suggestedExamType": "关系理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A11",
+    "type": "ATOMIC",
+    "content": "细胞内自由水比例越高，新陈代谢越旺盛。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A10"
+    ],
+    "suggestedExamType": "规律总结",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A12",
+    "type": "ATOMIC",
+    "content": "细胞内结合水比例越高，细胞的抗逆性（如抗寒、抗旱）越强。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A10"
+    ],
+    "suggestedExamType": "规律总结",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02",
+    "type": "TOPIC",
+    "title": "细胞中的无机盐",
+    "parentId": "BIO-B1-C02-S02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A01",
+    "type": "ATOMIC",
+    "content": "细胞中无机盐的含量很少，仅占细胞鲜重的1%~1.5%。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A03"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A02",
+    "type": "ATOMIC",
+    "content": "细胞中大多数无机盐以离子的形式存在。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A03",
+    "type": "ATOMIC",
+    "content": "无机盐对于维持细胞和生物体的生命活动有重要作用。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A01"
+    ],
+    "suggestedExamType": "功能概述",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A04",
+    "type": "ATOMIC",
+    "content": "某些无机盐是细胞内一些复杂化合物的重要组成成分。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A05",
+      "BIO-B1-C02-S02-T02-A06"
+    ],
+    "suggestedExamType": "功能分类",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A05",
+    "type": "ATOMIC",
+    "content": "Mg是构成叶绿素分子的必需元素。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A04"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A06",
+    "type": "ATOMIC",
+    "content": "Fe是构成血红素（血红蛋白的组成部分）的必需元素。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A04"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A07",
+    "type": "ATOMIC",
+    "content": "无机盐离子对于维持细胞的酸碱平衡（pH稳定）非常重要。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A08",
+    "type": "ATOMIC",
+    "content": "哺乳动物血液中的Ca2+含量过低会出现抽搐症状。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A03"
+    ],
+    "suggestedExamType": "功能举例 / 病理分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A09",
+    "type": "ATOMIC",
+    "content": "植物缺乏P元素会导致植株矮小、根系发育差。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A03"
+    ],
+    "suggestedExamType": "功能举例 / 缺素症",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03",
+    "type": "SECTION",
+    "title": "第3节：细胞中的糖类和脂质",
+    "parentId": "BIO-B1-C02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01",
+    "type": "TOPIC",
+    "title": "细胞中的糖类",
+    "parentId": "BIO-B1-C02-S03"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A01",
+    "type": "ATOMIC",
+    "content": "糖类是细胞生命活动需要的主要能源物质。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A06"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A02",
+    "type": "ATOMIC",
+    "content": "糖类分子一般由C、H、O三种元素组成。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A03",
+    "type": "ATOMIC",
+    "content": "多数糖类分子中氢原子和氧原子之比是2:1，因此被称为“碳水化合物”。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A02"
+    ],
+    "suggestedExamType": "概念理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A04",
+    "type": "ATOMIC",
+    "content": "糖类大致可以分为单糖、二糖和多糖。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A05",
+      "BIO-B1-C02-S03-T01-A08",
+      "BIO-B1-C02-S03-T01-A11"
+    ],
+    "suggestedExamType": "分类记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A05",
+    "type": "ATOMIC",
+    "content": "单糖是不能水解、可被细胞直接吸收的糖。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A04"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A06",
+    "type": "ATOMIC",
+    "content": "葡萄糖是细胞生命活动所需的主要能源物质，常被形容为“生命的燃料”。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A01",
+      "BIO-B1-C02-S03-T01-A07"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A07",
+    "type": "ATOMIC",
+    "content": "常见的单糖包括葡萄糖、果糖、半乳糖、核糖和脱氧核糖。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A05"
+    ],
+    "suggestedExamType": "事实记忆 / 举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A08",
+    "type": "ATOMIC",
+    "content": "二糖是由两分子单糖脱水缩合而成的。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A04",
+      "BIO-B1-C02-S03-T01-A05"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A09",
+    "type": "ATOMIC",
+    "content": "植物中常见的二糖是蔗糖和麦芽糖。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A08"
+    ],
+    "suggestedExamType": "事实记忆 / 举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A10",
+    "type": "ATOMIC",
+    "content": "动物乳汁中特有的二糖是乳糖。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A08"
+    ],
+    "suggestedExamType": "事实记忆 / 举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A11",
+    "type": "ATOMIC",
+    "content": "多糖是由许多葡萄糖分子连接而成的。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A04",
+      "BIO-B1-C02-S03-T01-A16"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A12",
+    "type": "ATOMIC",
+    "content": "淀粉是植物细胞中的储能物质。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A11",
+      "BIO-B1-C02-S03-T01-A13"
+    ],
+    "suggestedExamType": "功能与分布",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A13",
+    "type": "ATOMIC",
+    "content": "糖原是人和动物细胞中的储能物质。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A11",
+      "BIO-B1-C02-S03-T01-A12",
+      "BIO-B1-C02-S03-T01-A14"
+    ],
+    "suggestedExamType": "功能与分布",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A14",
+    "type": "ATOMIC",
+    "content": "糖原主要分布在人和动物的肝脏和肌肉中，分为肝糖原和肌糖原。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A13"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A15",
+    "type": "ATOMIC",
+    "content": "纤维素是植物细胞壁的主要成分，是一种结构物质。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A11"
+    ],
+    "suggestedExamType": "功能与分布",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A16",
+    "type": "ATOMIC",
+    "content": "淀粉、糖原和纤维素的基本组成单位都是葡萄糖。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A11"
+    ],
+    "suggestedExamType": "结构关系",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02",
+    "type": "TOPIC",
+    "title": "细胞中的脂质",
+    "parentId": "BIO-B1-C02-S03"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A01",
+    "type": "ATOMIC",
+    "content": "脂质主要由C、H、O元素组成，有些还含有P和N。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A02"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A02",
+    "type": "ATOMIC",
+    "content": "与糖类相比，脂质分子中O的含量远远低于糖类，而H的含量更高。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A02",
+      "BIO-B1-C02-S03-T02-A06"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A03",
+    "type": "ATOMIC",
+    "content": "脂质通常不溶于水，而溶于丙酮、氯仿、乙醚等脂溶性有机溶剂。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "物理性质",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A04",
+    "type": "ATOMIC",
+    "content": "常见的脂质有脂肪、磷脂和固醇。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A05",
+      "BIO-B1-C02-S03-T02-A10",
+      "BIO-B1-C02-S03-T02-A11"
+    ],
+    "suggestedExamType": "分类记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A05",
+    "type": "ATOMIC",
+    "content": "脂肪是细胞内良好的储能物质。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A01",
+      "BIO-B1-C02-S03-T02-A06"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A06",
+    "type": "ATOMIC",
+    "content": "等质量的脂肪比糖类储存的能量多得多（约39kJ/g）。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A02",
+      "BIO-B1-C02-S03-T02-A05"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A07",
+    "type": "ATOMIC",
+    "content": "脂肪是一种很好的绝热体，具有保温作用。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A08",
+    "type": "ATOMIC",
+    "content": "分布在内脏器官周围的脂肪具有缓冲和减压的作用。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A09",
+    "type": "ATOMIC",
+    "content": "脂肪是由三分子脂肪酸与一分子甘油反应形成的酯。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "结构组成",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A10",
+    "type": "ATOMIC",
+    "content": "磷脂是构成细胞膜和多种细胞器膜的重要成分。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A11",
+    "type": "ATOMIC",
+    "content": "固醇类物质包括胆固醇、性激素和维生素D。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A12",
+      "BIO-B1-C02-S03-T02-A13",
+      "BIO-B1-C02-S03-T02-A14"
+    ],
+    "suggestedExamType": "分类记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A12",
+    "type": "ATOMIC",
+    "content": "胆固醇是构成动物细胞膜的重要成分，并参与血液中脂质的运输。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A11"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A13",
+    "type": "ATOMIC",
+    "content": "性激素能促进人和动物生殖器官的发育以及生殖细胞的形成。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A11"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A14",
+    "type": "ATOMIC",
+    "content": "维生素D能有效地促进人和动物肠道对钙和磷的吸收。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A11"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T03",
+    "type": "TOPIC",
+    "title": "糖类和脂质的相互转化",
+    "parentId": "BIO-B1-C02-S03"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T03-A01",
+    "type": "ATOMIC",
+    "content": "细胞中的糖类和脂质可以相互转化。",
+    "parentId": "BIO-B1-C02-S03-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T03-A02",
+      "BIO-B1-C02-S03-T03-A03"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T03-A02",
+    "type": "ATOMIC",
+    "content": "在糖类供应充足的情况下，可以大量转化为脂肪。",
+    "parentId": "BIO-B1-C02-S03-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T03-A01"
+    ],
+    "suggestedExamType": "物质代谢",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T03-A03",
+    "type": "ATOMIC",
+    "content": "脂肪一般只在糖类供能不足时才会被分解供能，且不能大量转化为糖类。",
+    "parentId": "BIO-B1-C02-S03-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T03-A01"
+    ],
+    "suggestedExamType": "物质代谢 / 易错点",
+    "suggestedDifficulty": "中"
   }
 ]

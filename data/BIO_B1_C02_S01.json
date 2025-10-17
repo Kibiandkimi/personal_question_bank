@@ -1,0 +1,266 @@
+[
+  {
+    "kpid": "BIO-B1-C02",
+    "type": "CHAPTER",
+    "title": "第2章：组成细胞的分子",
+    "parentId": "BIO-B1"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01",
+    "type": "SECTION",
+    "title": "第1节：细胞中的元素和化合物",
+    "parentId": "BIO-B1-C02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01",
+    "type": "TOPIC",
+    "title": "组成细胞的化学元素",
+    "parentId": "BIO-B1-C02-S01"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A01",
+    "type": "ATOMIC",
+    "content": "组成细胞的化学元素在无机自然界中都能找到，没有一种是细胞所特有的。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A02"
+    ],
+    "suggestedExamType": "概念辨析 / 统一性",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A02",
+    "type": "ATOMIC",
+    "content": "细胞中各种元素的相对含量与无机自然界中的含量差异很大，体现了生物界与非生物界的差异性。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A01"
+    ],
+    "suggestedExamType": "概念辨析 / 差异性",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A03",
+    "type": "ATOMIC",
+    "content": "在细胞鲜重中，含量最多的四种元素是O、C、H、N。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A04"
+    ],
+    "suggestedExamType": "事实记忆 / 比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A04",
+    "type": "ATOMIC",
+    "content": "在细胞干重中，含量最多的四种元素是C、O、N、H。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A03"
+    ],
+    "suggestedExamType": "事实记忆 / 比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A05",
+    "type": "ATOMIC",
+    "content": "C元素是构成有机物的基本骨架，是细胞中最基本的元素。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A04"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A06",
+    "type": "ATOMIC",
+    "content": "含量较多的元素（如C、H、O、N、P、S、K、Ca、Mg等）称为大量元素。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A07"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A07",
+    "type": "ATOMIC",
+    "content": "含量很少的元素（如Fe、Mn、Zn、Cu、B、Mo等）称为微量元素。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A06",
+      "BIO-B1-C02-S01-T01-A08"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T01-A08",
+    "type": "ATOMIC",
+    "content": "微量元素含量虽少，但对维持生命活动至关重要。",
+    "parentId": "BIO-B1-C02-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T01-A07"
+    ],
+    "suggestedExamType": "概念辨析 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T02",
+    "type": "TOPIC",
+    "title": "组成细胞的化合物",
+    "parentId": "BIO-B1-C02-S01"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T02-A01",
+    "type": "ATOMIC",
+    "content": "细胞中的化合物分为无机物和有机物两大类。",
+    "parentId": "BIO-B1-C02-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T02-A02",
+      "BIO-B1-C02-S01-T02-A03"
+    ],
+    "suggestedExamType": "分类",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T02-A02",
+    "type": "ATOMIC",
+    "content": "细胞中的无机物主要包括水和无机盐。",
+    "parentId": "BIO-B1-C02-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T02-A01"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T02-A03",
+    "type": "ATOMIC",
+    "content": "细胞中的有机物主要包括糖类、脂质、蛋白质和核酸。",
+    "parentId": "BIO-B1-C02-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T02-A01"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T02-A04",
+    "type": "ATOMIC",
+    "content": "细胞鲜重中含量最多的化合物是水。",
+    "parentId": "BIO-B1-C02-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T02-A05"
+    ],
+    "suggestedExamType": "事实记忆 / 比较辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T02-A05",
+    "type": "ATOMIC",
+    "content": "细胞鲜重中含量最多的有机物是蛋白质。",
+    "parentId": "BIO-B1-C02-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T02-A04"
+    ],
+    "suggestedExamType": "事实记忆 / 比较辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03",
+    "type": "TOPIC",
+    "title": "实验：检测生物组织中的糖类、脂肪和蛋白质",
+    "parentId": "BIO-B1-C02-S01"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A01",
+    "type": "ATOMIC",
+    "content": "还原糖（如葡萄糖）与斐林试剂在水浴加热条件下反应，生成砖红色沉淀。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A02",
+      "BIO-B1-C02-S01-T03-A03"
+    ],
+    "suggestedExamType": "实验原理",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A02",
+    "type": "ATOMIC",
+    "content": "斐林试剂由甲液(0.1g/mL NaOH)和乙液(0.05g/mL CuSO4)组成，必须等量混合、现配现用。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A01"
+    ],
+    "suggestedExamType": "实验操作 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A03",
+    "type": "ATOMIC",
+    "content": "还原糖检测实验需要50-65℃水浴加热。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A01"
+    ],
+    "suggestedExamType": "实验条件",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A04",
+    "type": "ATOMIC",
+    "content": "脂肪可以被苏丹Ⅲ染液染成橘黄色。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A05"
+    ],
+    "suggestedExamType": "实验原理",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A05",
+    "type": "ATOMIC",
+    "content": "检测脂肪时，可使用体积分数为50%的酒精溶液洗去浮色，以便观察。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A04"
+    ],
+    "suggestedExamType": "实验操作",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A06",
+    "type": "ATOMIC",
+    "content": "蛋白质与双缩脲试剂发生作用，产生紫色反应。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A07"
+    ],
+    "suggestedExamType": "实验原理",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A07",
+    "type": "ATOMIC",
+    "content": "使用双缩脲试剂时，应先加入A液(0.1g/mL NaOH)摇匀，再加入B液(0.01g/mL CuSO4)。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A06"
+    ],
+    "suggestedExamType": "实验操作 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S01-T03-A08",
+    "type": "ATOMIC",
+    "content": "蛋白质检测实验不需要加热。",
+    "parentId": "BIO-B1-C02-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S01-T03-A06"
+    ],
+    "suggestedExamType": "实验条件",
+    "suggestedDifficulty": "易"
+  }
+]

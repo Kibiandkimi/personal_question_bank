@@ -1,0 +1,393 @@
+[
+  {
+    "kpid": "BIO-B1-C02-S03",
+    "type": "SECTION",
+    "title": "第3节：细胞中的糖类和脂质",
+    "parentId": "BIO-B1-C02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01",
+    "type": "TOPIC",
+    "title": "细胞中的糖类",
+    "parentId": "BIO-B1-C02-S03"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A01",
+    "type": "ATOMIC",
+    "content": "糖类是细胞生命活动需要的主要能源物质。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A06"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A02",
+    "type": "ATOMIC",
+    "content": "糖类分子一般由C、H、O三种元素组成。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A03",
+    "type": "ATOMIC",
+    "content": "多数糖类分子中氢原子和氧原子之比是2:1，因此被称为“碳水化合物”。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A02"
+    ],
+    "suggestedExamType": "概念理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A04",
+    "type": "ATOMIC",
+    "content": "糖类大致可以分为单糖、二糖和多糖。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A05",
+      "BIO-B1-C02-S03-T01-A08",
+      "BIO-B1-C02-S03-T01-A11"
+    ],
+    "suggestedExamType": "分类记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A05",
+    "type": "ATOMIC",
+    "content": "单糖是不能水解、可被细胞直接吸收的糖。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A04"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A06",
+    "type": "ATOMIC",
+    "content": "葡萄糖是细胞生命活动所需的主要能源物质，常被形容为“生命的燃料”。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A01",
+      "BIO-B1-C02-S03-T01-A07"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A07",
+    "type": "ATOMIC",
+    "content": "常见的单糖包括葡萄糖、果糖、半乳糖、核糖和脱氧核糖。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A05"
+    ],
+    "suggestedExamType": "事实记忆 / 举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A08",
+    "type": "ATOMIC",
+    "content": "二糖是由两分子单糖脱水缩合而成的。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A04",
+      "BIO-B1-C02-S03-T01-A05"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A09",
+    "type": "ATOMIC",
+    "content": "植物中常见的二糖是蔗糖和麦芽糖。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A08"
+    ],
+    "suggestedExamType": "事实记忆 / 举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A10",
+    "type": "ATOMIC",
+    "content": "动物乳汁中特有的二糖是乳糖。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A08"
+    ],
+    "suggestedExamType": "事实记忆 / 举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A11",
+    "type": "ATOMIC",
+    "content": "多糖是由许多葡萄糖分子连接而成的。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A04",
+      "BIO-B1-C02-S03-T01-A16"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A12",
+    "type": "ATOMIC",
+    "content": "淀粉是植物细胞中的储能物质。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A11",
+      "BIO-B1-C02-S03-T01-A13"
+    ],
+    "suggestedExamType": "功能与分布",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A13",
+    "type": "ATOMIC",
+    "content": "糖原是人和动物细胞中的储能物质。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A11",
+      "BIO-B1-C02-S03-T01-A12",
+      "BIO-B1-C02-S03-T01-A14"
+    ],
+    "suggestedExamType": "功能与分布",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A14",
+    "type": "ATOMIC",
+    "content": "糖原主要分布在人和动物的肝脏和肌肉中，分为肝糖原和肌糖原。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A13"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A15",
+    "type": "ATOMIC",
+    "content": "纤维素是植物细胞壁的主要成分，是一种结构物质。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A11"
+    ],
+    "suggestedExamType": "功能与分布",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T01-A16",
+    "type": "ATOMIC",
+    "content": "淀粉、糖原和纤维素的基本组成单位都是葡萄糖。",
+    "parentId": "BIO-B1-C02-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A11"
+    ],
+    "suggestedExamType": "结构关系",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02",
+    "type": "TOPIC",
+    "title": "细胞中的脂质",
+    "parentId": "BIO-B1-C02-S03"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A01",
+    "type": "ATOMIC",
+    "content": "脂质主要由C、H、O元素组成，有些还含有P和N。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A02"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A02",
+    "type": "ATOMIC",
+    "content": "与糖类相比，脂质分子中O的含量远远低于糖类，而H的含量更高。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A02",
+      "BIO-B1-C02-S03-T02-A06"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A03",
+    "type": "ATOMIC",
+    "content": "脂质通常不溶于水，而溶于丙酮、氯仿、乙醚等脂溶性有机溶剂。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "物理性质",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A04",
+    "type": "ATOMIC",
+    "content": "常见的脂质有脂肪、磷脂和固醇。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A05",
+      "BIO-B1-C02-S03-T02-A10",
+      "BIO-B1-C02-S03-T02-A11"
+    ],
+    "suggestedExamType": "分类记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A05",
+    "type": "ATOMIC",
+    "content": "脂肪是细胞内良好的储能物质。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T01-A01",
+      "BIO-B1-C02-S03-T02-A06"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A06",
+    "type": "ATOMIC",
+    "content": "等质量的脂肪比糖类储存的能量多得多（约39kJ/g）。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A02",
+      "BIO-B1-C02-S03-T02-A05"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A07",
+    "type": "ATOMIC",
+    "content": "脂肪是一种很好的绝热体，具有保温作用。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A08",
+    "type": "ATOMIC",
+    "content": "分布在内脏器官周围的脂肪具有缓冲和减压的作用。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A09",
+    "type": "ATOMIC",
+    "content": "脂肪是由三分子脂肪酸与一分子甘油反应形成的酯。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "结构组成",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A10",
+    "type": "ATOMIC",
+    "content": "磷脂是构成细胞膜和多种细胞器膜的重要成分。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A11",
+    "type": "ATOMIC",
+    "content": "固醇类物质包括胆固醇、性激素和维生素D。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A12",
+      "BIO-B1-C02-S03-T02-A13",
+      "BIO-B1-C02-S03-T02-A14"
+    ],
+    "suggestedExamType": "分类记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A12",
+    "type": "ATOMIC",
+    "content": "胆固醇是构成动物细胞膜的重要成分，并参与血液中脂质的运输。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A11"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A13",
+    "type": "ATOMIC",
+    "content": "性激素能促进人和动物生殖器官的发育以及生殖细胞的形成。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A11"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T02-A14",
+    "type": "ATOMIC",
+    "content": "维生素D能有效地促进人和动物肠道对钙和磷的吸收。",
+    "parentId": "BIO-B1-C02-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T02-A11"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T03",
+    "type": "TOPIC",
+    "title": "糖类和脂质的相互转化",
+    "parentId": "BIO-B1-C02-S03"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T03-A01",
+    "type": "ATOMIC",
+    "content": "细胞中的糖类和脂质可以相互转化。",
+    "parentId": "BIO-B1-C02-S03-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T03-A02",
+      "BIO-B1-C02-S03-T03-A03"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T03-A02",
+    "type": "ATOMIC",
+    "content": "在糖类供应充足的情况下，可以大量转化为脂肪。",
+    "parentId": "BIO-B1-C02-S03-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T03-A01"
+    ],
+    "suggestedExamType": "物质代谢",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S03-T03-A03",
+    "type": "ATOMIC",
+    "content": "脂肪一般只在糖类供能不足时才会被分解供能，且不能大量转化为糖类。",
+    "parentId": "BIO-B1-C02-S03-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S03-T03-A01"
+    ],
+    "suggestedExamType": "物质代谢 / 易错点",
+    "suggestedDifficulty": "中"
+  }
+]

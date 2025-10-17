@@ -1,0 +1,251 @@
+[
+  {
+    "kpid": "BIO-B1-C02-S02",
+    "type": "SECTION",
+    "title": "第2节：细胞中的无机物",
+    "parentId": "BIO-B1-C02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01",
+    "type": "TOPIC",
+    "title": "细胞中的水",
+    "parentId": "BIO-B1-C02-S02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A01",
+    "type": "ATOMIC",
+    "content": "水是活细胞中含量最多的化合物，约占60%-95%。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A02",
+    "type": "ATOMIC",
+    "content": "水是细胞内良好的溶剂，许多物质能够在水中溶解。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A03",
+      "BIO-B1-C02-S02-T01-A08"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A03",
+    "type": "ATOMIC",
+    "content": "水分子是极性分子，其空间结构和电子不对称分布是其成为良好溶剂的原因。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A02"
+    ],
+    "suggestedExamType": "原理理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A04",
+    "type": "ATOMIC",
+    "content": "细胞内的许多生物化学反应都需要水的参与。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A08"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A05",
+    "type": "ATOMIC",
+    "content": "水在生物体内流动，可以运输营养物质和代谢废物。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A08"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A06",
+    "type": "ATOMIC",
+    "content": "水具有较高的比热容，对于维持生命系统的温度稳定具有重要作用。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [],
+    "suggestedExamType": "特性与功能",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A07",
+    "type": "ATOMIC",
+    "content": "细胞中的水以自由水和结合水两种形式存在。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A08",
+      "BIO-B1-C02-S02-T01-A09"
+    ],
+    "suggestedExamType": "概念分类",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A08",
+    "type": "ATOMIC",
+    "content": "自由水是细胞内可以自由流动的水，是细胞内良好的溶剂并参与化学反应。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A07",
+      "BIO-B1-C02-S02-T01-A02",
+      "BIO-B1-C02-S02-T01-A04",
+      "BIO-B1-C02-S02-T01-A11"
+    ],
+    "suggestedExamType": "概念与功能",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A09",
+    "type": "ATOMIC",
+    "content": "结合水是与细胞内其他物质相结合的水，是细胞结构的重要组成部分。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A07",
+      "BIO-B1-C02-S02-T01-A12"
+    ],
+    "suggestedExamType": "概念与功能",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A10",
+    "type": "ATOMIC",
+    "content": "细胞内自由水与结合水的比例影响细胞代谢的旺盛程度。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A11",
+      "BIO-B1-C02-S02-T01-A12"
+    ],
+    "suggestedExamType": "关系理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A11",
+    "type": "ATOMIC",
+    "content": "细胞内自由水比例越高，新陈代谢越旺盛。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A10"
+    ],
+    "suggestedExamType": "规律总结",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T01-A12",
+    "type": "ATOMIC",
+    "content": "细胞内结合水比例越高，细胞的抗逆性（如抗寒、抗旱）越强。",
+    "parentId": "BIO-B1-C02-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T01-A10"
+    ],
+    "suggestedExamType": "规律总结",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02",
+    "type": "TOPIC",
+    "title": "细胞中的无机盐",
+    "parentId": "BIO-B1-C02-S02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A01",
+    "type": "ATOMIC",
+    "content": "细胞中无机盐的含量很少，仅占细胞鲜重的1%~1.5%。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A03"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A02",
+    "type": "ATOMIC",
+    "content": "细胞中大多数无机盐以离子的形式存在。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A03",
+    "type": "ATOMIC",
+    "content": "无机盐对于维持细胞和生物体的生命活动有重要作用。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A01"
+    ],
+    "suggestedExamType": "功能概述",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A04",
+    "type": "ATOMIC",
+    "content": "某些无机盐是细胞内一些复杂化合物的重要组成成分。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A05",
+      "BIO-B1-C02-S02-T02-A06"
+    ],
+    "suggestedExamType": "功能分类",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A05",
+    "type": "ATOMIC",
+    "content": "Mg是构成叶绿素分子的必需元素。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A04"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A06",
+    "type": "ATOMIC",
+    "content": "Fe是构成血红素（血红蛋白的组成部分）的必需元素。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A04"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A07",
+    "type": "ATOMIC",
+    "content": "无机盐离子对于维持细胞的酸碱平衡（pH稳定）非常重要。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A08",
+    "type": "ATOMIC",
+    "content": "哺乳动物血液中的Ca2+含量过低会出现抽搐症状。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A03"
+    ],
+    "suggestedExamType": "功能举例 / 病理分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S02-T02-A09",
+    "type": "ATOMIC",
+    "content": "植物缺乏P元素会导致植株矮小、根系发育差。",
+    "parentId": "BIO-B1-C02-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S02-T02-A03"
+    ],
+    "suggestedExamType": "功能举例 / 缺素症",
+    "suggestedDifficulty": "易"
+  }
+]
