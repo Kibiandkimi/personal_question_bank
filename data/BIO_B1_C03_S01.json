@@ -1,0 +1,294 @@
+[
+  {
+    "kpid": "BIO-B1-C03",
+    "type": "CHAPTER",
+    "title": "第3章：细胞的基本结构",
+    "parentId": "BIO-B1"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01",
+    "type": "SECTION",
+    "title": "第1节：细胞膜的结构和功能",
+    "parentId": "BIO-B1-C03"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01",
+    "type": "TOPIC",
+    "title": "细胞膜的功能",
+    "parentId": "BIO-B1-C03-S01"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A01",
+    "type": "ATOMIC",
+    "content": "细胞膜的功能之一是将细胞与外界环境分隔开。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A02",
+      "BIO-B1-C03-S01-T01-A03",
+      "BIO-B1-C03-S01-T01-A04"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A02",
+    "type": "ATOMIC",
+    "content": "细胞膜保障了细胞内部环境的相对稳定。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A01"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A03",
+    "type": "ATOMIC",
+    "content": "细胞膜的功能之二是控制物质进出细胞。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A01",
+      "BIO-B1-C03-S01-T03-A08"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A04",
+    "type": "ATOMIC",
+    "content": "细胞膜的功能之三是进行细胞间的信息交流。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A01",
+      "BIO-B1-C03-S01-T03-A11"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A05",
+    "type": "ATOMIC",
+    "content": "细胞间信息交流方式之一是通过化学物质（如激素）间接传递。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A04"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A06",
+    "type": "ATOMIC",
+    "content": "细胞间信息交流方式之二是通过细胞膜直接接触传递。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A04"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A07",
+    "type": "ATOMIC",
+    "content": "细胞间信息交流方式之三是通过通道（如植物胞间连丝）传递。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A04"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T02",
+    "type": "TOPIC",
+    "title": "细胞膜结构的探索历程",
+    "parentId": "BIO-B1-C03-S01"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T02-A01",
+    "type": "ATOMIC",
+    "content": "1895年，欧文顿实验证明细胞膜的主要成分中有脂质。",
+    "parentId": "BIO-B1-C03-S01-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "科学史实",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T02-A02",
+    "type": "ATOMIC",
+    "content": "1925年，戈特和格伦德尔的实验推断出细胞膜中的磷脂分子排列为连续的两层。",
+    "parentId": "BIO-B1-C03-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A03"
+    ],
+    "suggestedExamType": "科学史实",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T02-A03",
+    "type": "ATOMIC",
+    "content": "1959年，罗伯特森提出了静态的“蛋白质-脂质-蛋白质”三明治模型。",
+    "parentId": "BIO-B1-C03-S01-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "科学史实",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T02-A04",
+    "type": "ATOMIC",
+    "content": "1970年，人鼠细胞融合实验证明了细胞膜上的分子是能够运动的。",
+    "parentId": "BIO-B1-C03-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A07"
+    ],
+    "suggestedExamType": "科学史实 / 实验分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T02-A05",
+    "type": "ATOMIC",
+    "content": "1972年，辛格和尼科尔森提出了流动镶嵌模型。",
+    "parentId": "BIO-B1-C03-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A01"
+    ],
+    "suggestedExamType": "科学史实",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03",
+    "type": "TOPIC",
+    "title": "流动镶嵌模型的基本内容",
+    "parentId": "BIO-B1-C03-S01"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A01",
+    "type": "ATOMIC",
+    "content": "细胞膜主要由脂质（磷脂为主）和蛋白质组成，此外还有少量糖类。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A02",
+      "BIO-B1-C03-S01-T03-A04"
+    ],
+    "suggestedExamType": "组成成分",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A02",
+    "type": "ATOMIC",
+    "content": "磷脂分子具有亲水的头部和疏水的尾部。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A03"
+    ],
+    "suggestedExamType": "结构特性",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A03",
+    "type": "ATOMIC",
+    "content": "磷脂双分子层构成了细胞膜的基本支架。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A02"
+    ],
+    "suggestedExamType": "核心结构",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A04",
+    "type": "ATOMIC",
+    "content": "蛋白质分子以镶嵌、贯穿或覆盖等方式分布在磷脂双分子层中。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A03"
+    ],
+    "suggestedExamType": "结构细节",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A05",
+    "type": "ATOMIC",
+    "content": "构成细胞膜的磷脂分子是能够运动的。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A06",
+      "BIO-B1-C03-S01-T03-A07"
+    ],
+    "suggestedExamType": "结构特性",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A06",
+    "type": "ATOMIC",
+    "content": "构成细胞膜的大多数蛋白质分子也是能够运动的。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A05",
+      "BIO-B1-C03-S01-T03-A07"
+    ],
+    "suggestedExamType": "结构特性",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A07",
+    "type": "ATOMIC",
+    "content": "细胞膜的结构特点是具有一定的流动性。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T02-A04",
+      "BIO-B1-C03-S01-T03-A05",
+      "BIO-B1-C03-S01-T03-A06",
+      "BIO-B1-C03-S01-T03-A08"
+    ],
+    "suggestedExamType": "核心特性 / 结构特点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A08",
+    "type": "ATOMIC",
+    "content": "细胞膜的功能特点是具有选择透过性。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A03",
+      "BIO-B1-C03-S01-T03-A07"
+    ],
+    "suggestedExamType": "核心特性 / 功能特点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A09",
+    "type": "ATOMIC",
+    "content": "在细胞膜的外表面，有一层由细胞膜上的蛋白质与糖类结合形成的糖蛋白。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A10"
+    ],
+    "suggestedExamType": "结构组成",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A10",
+    "type": "ATOMIC",
+    "content": "糖蛋白形成的覆盖层称为糖被。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A09",
+      "BIO-B1-C03-S01-T03-A11"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A11",
+    "type": "ATOMIC",
+    "content": "糖被在细胞识别、保护和润滑等方面具有重要功能。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A04",
+      "BIO-B1-C03-S01-T03-A10"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "中"
+  }
+]

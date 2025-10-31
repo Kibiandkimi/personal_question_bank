@@ -1,0 +1,271 @@
+[
+  {
+    "kpid": "BIO-B1-C02-S05",
+    "type": "SECTION",
+    "title": "第5节：核酸是遗传信息的携带者",
+    "parentId": "BIO-B1-C02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T01",
+    "type": "TOPIC",
+    "title": "核酸的种类和分布",
+    "parentId": "BIO-B1-C02-S05"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T01-A01",
+    "type": "ATOMIC",
+    "content": "核酸包括脱氧核糖核酸（DNA）和核糖核酸（RNA）两大类。",
+    "parentId": "BIO-B1-C02-S05-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T01-A02",
+      "BIO-B1-C02-S05-T01-A03"
+    ],
+    "suggestedExamType": "概念分类",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T01-A02",
+    "type": "ATOMIC",
+    "content": "在真核细胞中，DNA主要分布在细胞核中。",
+    "parentId": "BIO-B1-C02-S05-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T01-A01",
+      "BIO-B1-C02-S05-T01-A03"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T01-A03",
+    "type": "ATOMIC",
+    "content": "线粒体和叶绿体中也含有少量的DNA。",
+    "parentId": "BIO-B1-C02-S05-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T01-A02"
+    ],
+    "suggestedExamType": "事实记忆 / 补充",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T01-A04",
+    "type": "ATOMIC",
+    "content": "RNA主要分布在细胞质中。",
+    "parentId": "BIO-B1-C02-S05-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T01-A01",
+      "BIO-B1-C02-S05-T01-A02"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02",
+    "type": "TOPIC",
+    "title": "核酸的化学结构",
+    "parentId": "BIO-B1-C02-S05"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A01",
+    "type": "ATOMIC",
+    "content": "核酸是生物大分子，其基本组成单位是核苷酸。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A02"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A02",
+    "type": "ATOMIC",
+    "content": "一个核苷酸分子由一分子含氮的碱基、一分子五碳糖和一分子磷酸组成。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A01"
+    ],
+    "suggestedExamType": "结构组成",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A03",
+    "type": "ATOMIC",
+    "content": "根据五碳糖的不同，核苷酸可分为脱氧核糖核苷酸和核糖核苷酸。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A04",
+      "BIO-B1-C02-S05-T02-A05"
+    ],
+    "suggestedExamType": "分类依据",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A04",
+    "type": "ATOMIC",
+    "content": "组成DNA的五碳糖是脱氧核糖。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A03",
+      "BIO-B1-C02-S05-T02-A05"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A05",
+    "type": "ATOMIC",
+    "content": "组成RNA的五碳糖是核糖。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A03",
+      "BIO-B1-C02-S05-T02-A04"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A06",
+    "type": "ATOMIC",
+    "content": "组成DNA的含氮碱基有腺嘌呤(A)、鸟嘌呤(G)、胞嘧啶(C)和胸腺嘧啶(T)。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A07"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A07",
+    "type": "ATOMIC",
+    "content": "组成RNA的含氮碱基有腺嘌呤(A)、鸟嘌呤(G)、胞嘧啶(C)和尿嘧啶(U)。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A06"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A08",
+    "type": "ATOMIC",
+    "content": "DNA通常由两条脱氧核苷酸链构成。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A09"
+    ],
+    "suggestedExamType": "结构层次",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A09",
+    "type": "ATOMIC",
+    "content": "RNA通常由一条核糖核苷酸链构成。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A08"
+    ],
+    "suggestedExamType": "结构层次",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T03",
+    "type": "TOPIC",
+    "title": "核酸的功能",
+    "parentId": "BIO-B1-C02-S05"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T03-A01",
+    "type": "ATOMIC",
+    "content": "核酸是细胞内携带遗传信息的物质。",
+    "parentId": "BIO-B1-C02-S05-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T03-A02"
+    ],
+    "suggestedExamType": "核心功能",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T03-A02",
+    "type": "ATOMIC",
+    "content": "生物的遗传信息储存在DNA分子的脱氧核苷酸排列顺序中。",
+    "parentId": "BIO-B1-C02-S05-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T03-A01",
+      "BIO-B1-C02-S05-T03-A03"
+    ],
+    "suggestedExamType": "原理理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T03-A03",
+    "type": "ATOMIC",
+    "content": "脱氧核苷酸排列顺序的多样性决定了DNA分子信息储存量巨大。",
+    "parentId": "BIO-B1-C02-S05-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T03-A02"
+    ],
+    "suggestedExamType": "结构与功能",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T03-A04",
+    "type": "ATOMIC",
+    "content": "部分病毒的遗传信息储存在RNA中。",
+    "parentId": "BIO-B1-C02-S05-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T03-A01"
+    ],
+    "suggestedExamType": "特例辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T03-A05",
+    "type": "ATOMIC",
+    "content": "核酸在生物体的遗传、变异和蛋白质的生物合成中具有极其重要的作用。",
+    "parentId": "BIO-B1-C02-S05-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T03-A01"
+    ],
+    "suggestedExamType": "功能总结",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T04",
+    "type": "TOPIC",
+    "title": "生物大分子以碳链为骨架",
+    "parentId": "BIO-B1-C02-S05"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T04-A01",
+    "type": "ATOMIC",
+    "content": "多糖、蛋白质、核酸都是由许多单体连接而成的多聚体，称为生物大分子。",
+    "parentId": "BIO-B1-C02-S05-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T04-A02"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T04-A02",
+    "type": "ATOMIC",
+    "content": "每个单体都以若干个相连的碳原子构成的碳链为基本骨架。",
+    "parentId": "BIO-B1-C02-S05-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T04-A01",
+      "BIO-B1-C02-S05-T04-A03"
+    ],
+    "suggestedExamType": "结构共性",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T04-A03",
+    "type": "ATOMIC",
+    "content": "生物大分子都是以碳链为骨架的。",
+    "parentId": "BIO-B1-C02-S05-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T04-A02"
+    ],
+    "suggestedExamType": "规律总结",
+    "suggestedDifficulty": "中"
+  }
+]

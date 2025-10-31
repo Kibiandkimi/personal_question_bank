@@ -123,3 +123,52 @@ class QuestionManager:
             context['children'] = self.get_children(question_id)
 
         return context
+
+    # --- 1.1 新增的灵活查询方法 ---
+    def find_questions(self, text_in_stem: Optional[str] = None, kpid: Optional[str] = None,
+                       source: Optional[str] = None, is_wrong: Optional[bool] = None,
+                       question_type: Optional[str] = None) -> List[Dict[str, Any]]:
+        """
+        根据一个或多个筛选条件灵活地查找题目。
+
+        Args:
+            text_in_stem: 题干中应包含的文本 (不区分大小写)。
+            kpid: 题目应关联的知识点ID。
+            source: 题目的来源应包含的文本 (不区分大小写)。
+            is_wrong: 题目是否被标记为错题 (True/False)。
+            question_type: 题目的具体类型 (如 'SINGLE_CHOICE')。
+
+        Returns:
+            一个包含所有匹配题目对象的列表。
+        """
+        matched_questions = []
+        for q in self.questions:
+            # 检查题干
+            if text_in_stem is not None:
+                if text_in_stem.lower() not in q.get('stem', '').lower():
+                    continue
+
+            # 检查知识点
+            if kpid is not None:
+                if kpid not in q.get('metadata', {}).get('knowledgePointIds', []):
+                    continue
+
+            # 检查来源
+            if source is not None:
+                if source.lower() not in q.get('metadata', {}).get('source', '').lower():
+                    continue
+
+            # 检查是否错题
+            if is_wrong is not None:
+                if q.get('personalData', {}).get('isWrong') != is_wrong:
+                    continue
+
+            # 检查题目类型
+            if question_type is not None:
+                if q.get('questionType') != question_type:
+                    continue
+
+            # 如果所有检查都通过，则添加该题目
+            matched_questions.append(q)
+
+        return matched_questions

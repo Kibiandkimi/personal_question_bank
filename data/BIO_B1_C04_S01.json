@@ -1,0 +1,302 @@
+[
+  {
+    "kpid": "BIO-B1-C04",
+    "type": "CHAPTER",
+    "title": "第4章：细胞的物质输入和输出",
+    "parentId": "BIO-B1"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01",
+    "type": "SECTION",
+    "title": "第1节：被动运输",
+    "parentId": "BIO-B1-C04"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01",
+    "type": "TOPIC",
+    "title": "渗透作用原理与水分跨膜运输",
+    "parentId": "BIO-B1-C04-S01"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A01",
+    "type": "ATOMIC",
+    "content": "水分子（或其他溶剂分子）通过半透膜的扩散称为渗透作用。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A02",
+      "BIO-B1-C04-S01-T01-A03"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A02",
+    "type": "ATOMIC",
+    "content": "渗透作用发生的条件之一是具有半透膜。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A01",
+      "BIO-B1-C04-S01-T01-A03"
+    ],
+    "suggestedExamType": "条件分析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A03",
+    "type": "ATOMIC",
+    "content": "渗透作用发生的条件之二是半透膜两侧存在浓度差。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A01",
+      "BIO-B1-C04-S01-T01-A02"
+    ],
+    "suggestedExamType": "条件分析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A04",
+    "type": "ATOMIC",
+    "content": "动物细胞的细胞膜相当于一层半透膜。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A05"
+    ],
+    "suggestedExamType": "类比理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A05",
+    "type": "ATOMIC",
+    "content": "成熟植物细胞的原生质层相当于一层半透膜。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A04",
+      "BIO-B1-C04-S01-T01-A06"
+    ],
+    "suggestedExamType": "类比理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A06",
+    "type": "ATOMIC",
+    "content": "原生质层包括细胞膜、液泡膜以及两层膜之间的细胞质。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A05"
+    ],
+    "suggestedExamType": "结构组成",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A07",
+    "type": "ATOMIC",
+    "content": "植物细胞的细胞壁是全透性的，不构成半透膜。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A05"
+    ],
+    "suggestedExamType": "概念辨析 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A08",
+    "type": "ATOMIC",
+    "content": "当外界溶液浓度低于细胞质浓度时，动物细胞会吸水膨胀。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A09"
+    ],
+    "suggestedExamType": "现象与原理",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A09",
+    "type": "ATOMIC",
+    "content": "当外界溶液浓度高于细胞质浓度时，动物细胞会失水皱缩。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A08"
+    ],
+    "suggestedExamType": "现象与原理",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A10",
+    "type": "ATOMIC",
+    "content": "当外界溶液浓度低于细胞液浓度时，植物细胞会吸水。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A11"
+    ],
+    "suggestedExamType": "现象与原理",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A11",
+    "type": "ATOMIC",
+    "content": "当外界溶液浓度高于细胞液浓度时，植物细胞会失水，发生质壁分离。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A10",
+      "BIO-B1-C04-S01-T01-A12"
+    ],
+    "suggestedExamType": "现象与原理",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A12",
+    "type": "ATOMIC",
+    "content": "质壁分离是指植物细胞的原生质层与细胞壁分离的现象。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A11"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02",
+    "type": "TOPIC",
+    "title": "被动运输",
+    "parentId": "BIO-B1-C04-S01"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A01",
+    "type": "ATOMIC",
+    "content": "物质顺浓度梯度进出细胞，且不消耗细胞化学反应所释放能量的运输方式，称为被动运输。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A02",
+      "BIO-B1-C04-S01-T02-A03"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A02",
+    "type": "ATOMIC",
+    "content": "被动运输的动力来源是膜内外物质的浓度差。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A01"
+    ],
+    "suggestedExamType": "原理理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A03",
+    "type": "ATOMIC",
+    "content": "被动运输包括自由扩散和协助扩散两类。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A01",
+      "BIO-B1-C04-S01-T02-A04",
+      "BIO-B1-C04-S01-T02-A06"
+    ],
+    "suggestedExamType": "概念分类",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A04",
+    "type": "ATOMIC",
+    "content": "物质通过简单的扩散作用进出细胞的方式，叫作自由扩散。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A03",
+      "BIO-B1-C04-S01-T02-A05"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A05",
+    "type": "ATOMIC",
+    "content": "氧气、二氧化碳、甘油、乙醇、苯等小分子物质通过自由扩散进出细胞。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A04"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A06",
+    "type": "ATOMIC",
+    "content": "借助膜上转运蛋白进出细胞的物质扩散方式，叫作协助扩散。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A03",
+      "BIO-B1-C04-S01-T02-A07"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A07",
+    "type": "ATOMIC",
+    "content": "葡萄糖、氨基酸、离子等物质通过协助扩散进出细胞。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A06"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A08",
+    "type": "ATOMIC",
+    "content": "转运蛋白可以分为载体蛋白和通道蛋白两种类型。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A06"
+    ],
+    "suggestedExamType": "概念分类",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A09",
+    "type": "ATOMIC",
+    "content": "载体蛋白通过与被转运物质结合并发生构象改变来转运物质。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A08"
+    ],
+    "suggestedExamType": "作用机制",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A10",
+    "type": "ATOMIC",
+    "content": "通道蛋白形成亲水通道，让特定物质通过。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A08"
+    ],
+    "suggestedExamType": "作用机制",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A11",
+    "type": "ATOMIC",
+    "content": "水分子跨膜运输既可以通过自由扩散，也可以通过水通道蛋白进行协助扩散。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A01",
+      "BIO-B1-C04-S01-T02-A04",
+      "BIO-B1-C04-S01-T02-A06"
+    ],
+    "suggestedExamType": "综合理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A12",
+    "type": "ATOMIC",
+    "content": "协助扩散的速率受膜上转运蛋白数量的限制。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A06"
+    ],
+    "suggestedExamType": "影响因素",
+    "suggestedDifficulty": "中"
+  }
+]

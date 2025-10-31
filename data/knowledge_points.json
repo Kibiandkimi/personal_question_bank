@@ -1559,5 +1559,2023 @@
     ],
     "suggestedExamType": "物质代谢 / 易错点",
     "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04",
+    "type": "SECTION",
+    "title": "第4节：蛋白质是生命活动的主要承担者",
+    "parentId": "BIO-B1-C02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01",
+    "type": "TOPIC",
+    "title": "蛋白质的功能",
+    "parentId": "BIO-B1-C02-S04"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A01",
+    "type": "ATOMIC",
+    "content": "蛋白质是生命活动的主要承担者。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A03"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A02",
+    "type": "ATOMIC",
+    "content": "蛋白质是构成细胞和生物体结构的重要物质（结构功能）。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A03"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A03",
+    "type": "ATOMIC",
+    "content": "肌肉、头发、羽毛、蛛丝等的主要成分是结构蛋白。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A02"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A04",
+    "type": "ATOMIC",
+    "content": "绝大多数酶的化学本质是蛋白质，具有催化功能。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解 / 事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A05",
+    "type": "ATOMIC",
+    "content": "有些蛋白质具有运输物质的功能（运输功能）。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A06"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A06",
+    "type": "ATOMIC",
+    "content": "血红蛋白是一种运输蛋白，能运输氧气。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A05"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A07",
+    "type": "ATOMIC",
+    "content": "有些蛋白质具有调节机体生命活动的功能（调节功能）。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A08"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A08",
+    "type": "ATOMIC",
+    "content": "胰岛素是一种蛋白质类激素，能调节血糖。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A07"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A09",
+    "type": "ATOMIC",
+    "content": "有些蛋白质具有免疫功能。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A10"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A10",
+    "type": "ATOMIC",
+    "content": "抗体是蛋白质，可以帮助人体抵御病菌和病毒等抗原的侵害。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A09"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02",
+    "type": "TOPIC",
+    "title": "蛋白质的基本组成单位——氨基酸",
+    "parentId": "BIO-B1-C02-S04"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A01",
+    "type": "ATOMIC",
+    "content": "氨基酸是组成蛋白质的基本单位。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T03-A01"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A02",
+    "type": "ATOMIC",
+    "content": "每种氨基酸分子至少都含有一个氨基（—NH2）和一个羧基（—COOH）。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A03"
+    ],
+    "suggestedExamType": "结构通式",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A03",
+    "type": "ATOMIC",
+    "content": "氨基酸的氨基和羧基都连接在同一个中心碳原子上。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A02"
+    ],
+    "suggestedExamType": "结构通式",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A04",
+    "type": "ATOMIC",
+    "content": "氨基酸种类的不同取决于其侧链基团（R基）的不同。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A01"
+    ],
+    "suggestedExamType": "结构辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A05",
+    "type": "ATOMIC",
+    "content": "组成人体蛋白质的氨基酸约有21种。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A06",
+      "BIO-B1-C02-S04-T02-A07"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A06",
+    "type": "ATOMIC",
+    "content": "必需氨基酸是人体细胞不能合成，必须从外界环境中获取的氨基酸。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A07"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A07",
+    "type": "ATOMIC",
+    "content": "非必需氨基酸是人体细胞能够合成的氨基酸。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A06"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T03",
+    "type": "TOPIC",
+    "title": "蛋白质的形成过程",
+    "parentId": "BIO-B1-C02-S04"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T03-A01",
+    "type": "ATOMIC",
+    "content": "氨基酸通过脱水缩合反应形成蛋白质。",
+    "parentId": "BIO-B1-C02-S04-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A01",
+      "BIO-B1-C02-S04-T03-A02"
+    ],
+    "suggestedExamType": "核心过程",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T03-A02",
+    "type": "ATOMIC",
+    "content": "脱水缩合是指一个氨基酸的羧基和另一个氨基酸的氨基相连接，并脱去一分子水的过程。",
+    "parentId": "BIO-B1-C02-S04-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T03-A01",
+      "BIO-B1-C02-S04-T03-A03"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T03-A03",
+    "type": "ATOMIC",
+    "content": "连接两个氨基酸分子的化学键叫作肽键。",
+    "parentId": "BIO-B1-C02-S04-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T03-A02",
+      "BIO-B1-C02-S04-T03-A04"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T03-A04",
+    "type": "ATOMIC",
+    "content": "肽键的化学结构式是—CO—NH—。",
+    "parentId": "BIO-B1-C02-S04-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T03-A03"
+    ],
+    "suggestedExamType": "结构记忆",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T03-A05",
+    "type": "ATOMIC",
+    "content": "由多个氨基酸脱水缩合形成的链状结构称为多肽（或肽链）。",
+    "parentId": "BIO-B1-C02-S04-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T03-A01"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04",
+    "type": "TOPIC",
+    "title": "蛋白质的结构与功能多样性",
+    "parentId": "BIO-B1-C02-S04"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A01",
+    "type": "ATOMIC",
+    "content": "蛋白质结构多样性的直接原因之一是组成蛋白质的氨基酸的种类、数目、排列顺序不同。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A04",
+      "BIO-B1-C02-S04-T04-A02",
+      "BIO-B1-C02-S04-T04-A03"
+    ],
+    "suggestedExamType": "原因分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A02",
+    "type": "ATOMIC",
+    "content": "蛋白质结构多样性的直接原因之二是肽链的盘曲、折叠方式及其形成的空间结构千差万别。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A01",
+      "BIO-B1-C02-S04-T04-A03"
+    ],
+    "suggestedExamType": "原因分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A03",
+    "type": "ATOMIC",
+    "content": "蛋白质的结构多样性决定了其功能多样性。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A01",
+      "BIO-B1-C02-S04-T04-A01",
+      "BIO-B1-C02-S04-T04-A02",
+      "BIO-B1-C02-S04-T04-A04"
+    ],
+    "suggestedExamType": "核心关系",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A04",
+    "type": "ATOMIC",
+    "content": "蛋白质的特定空间结构是其实现特定功能的基础。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A03",
+      "BIO-B1-C02-S04-T04-A05"
+    ],
+    "suggestedExamType": "核心关系",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A05",
+    "type": "ATOMIC",
+    "content": "蛋白质变性是指其在物理或化学因素作用下，特定空间结构被破坏，导致生物活性丧失的现象。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A04",
+      "BIO-B1-C02-S04-T04-A06"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A06",
+    "type": "ATOMIC",
+    "content": "高温、过酸、过碱、重金属盐等因素可导致蛋白质变性。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A05"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A07",
+    "type": "ATOMIC",
+    "content": "蛋白质变性后其一级结构（氨基酸序列）通常不发生改变。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A05"
+    ],
+    "suggestedExamType": "概念辨析 / 易错点",
+    "suggestedDifficulty": "难"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05",
+    "type": "SECTION",
+    "title": "第5节：核酸是遗传信息的携带者",
+    "parentId": "BIO-B1-C02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T01",
+    "type": "TOPIC",
+    "title": "核酸的种类和分布",
+    "parentId": "BIO-B1-C02-S05"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T01-A01",
+    "type": "ATOMIC",
+    "content": "核酸包括脱氧核糖核酸（DNA）和核糖核酸（RNA）两大类。",
+    "parentId": "BIO-B1-C02-S05-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T01-A02",
+      "BIO-B1-C02-S05-T01-A03"
+    ],
+    "suggestedExamType": "概念分类",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T01-A02",
+    "type": "ATOMIC",
+    "content": "在真核细胞中，DNA主要分布在细胞核中。",
+    "parentId": "BIO-B1-C02-S05-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T01-A01",
+      "BIO-B1-C02-S05-T01-A03"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T01-A03",
+    "type": "ATOMIC",
+    "content": "线粒体和叶绿体中也含有少量的DNA。",
+    "parentId": "BIO-B1-C02-S05-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T01-A02"
+    ],
+    "suggestedExamType": "事实记忆 / 补充",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T01-A04",
+    "type": "ATOMIC",
+    "content": "RNA主要分布在细胞质中。",
+    "parentId": "BIO-B1-C02-S05-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T01-A01",
+      "BIO-B1-C02-S05-T01-A02"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02",
+    "type": "TOPIC",
+    "title": "核酸的化学结构",
+    "parentId": "BIO-B1-C02-S05"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A01",
+    "type": "ATOMIC",
+    "content": "核酸是生物大分子，其基本组成单位是核苷酸。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A02"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A02",
+    "type": "ATOMIC",
+    "content": "一个核苷酸分子由一分子含氮的碱基、一分子五碳糖和一分子磷酸组成。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A01"
+    ],
+    "suggestedExamType": "结构组成",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A03",
+    "type": "ATOMIC",
+    "content": "根据五碳糖的不同，核苷酸可分为脱氧核糖核苷酸和核糖核苷酸。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A04",
+      "BIO-B1-C02-S05-T02-A05"
+    ],
+    "suggestedExamType": "分类依据",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A04",
+    "type": "ATOMIC",
+    "content": "组成DNA的五碳糖是脱氧核糖。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A03",
+      "BIO-B1-C02-S05-T02-A05"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A05",
+    "type": "ATOMIC",
+    "content": "组成RNA的五碳糖是核糖。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A03",
+      "BIO-B1-C02-S05-T02-A04"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A06",
+    "type": "ATOMIC",
+    "content": "组成DNA的含氮碱基有腺嘌呤(A)、鸟嘌呤(G)、胞嘧啶(C)和胸腺嘧啶(T)。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A07"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A07",
+    "type": "ATOMIC",
+    "content": "组成RNA的含氮碱基有腺嘌呤(A)、鸟嘌呤(G)、胞嘧啶(C)和尿嘧啶(U)。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A06"
+    ],
+    "suggestedExamType": "比较辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A08",
+    "type": "ATOMIC",
+    "content": "DNA通常由两条脱氧核苷酸链构成。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A09"
+    ],
+    "suggestedExamType": "结构层次",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T02-A09",
+    "type": "ATOMIC",
+    "content": "RNA通常由一条核糖核苷酸链构成。",
+    "parentId": "BIO-B1-C02-S05-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T02-A08"
+    ],
+    "suggestedExamType": "结构层次",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T03",
+    "type": "TOPIC",
+    "title": "核酸的功能",
+    "parentId": "BIO-B1-C02-S05"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T03-A01",
+    "type": "ATOMIC",
+    "content": "核酸是细胞内携带遗传信息的物质。",
+    "parentId": "BIO-B1-C02-S05-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T03-A02"
+    ],
+    "suggestedExamType": "核心功能",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T03-A02",
+    "type": "ATOMIC",
+    "content": "生物的遗传信息储存在DNA分子的脱氧核苷酸排列顺序中。",
+    "parentId": "BIO-B1-C02-S05-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T03-A01",
+      "BIO-B1-C02-S05-T03-A03"
+    ],
+    "suggestedExamType": "原理理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T03-A03",
+    "type": "ATOMIC",
+    "content": "脱氧核苷酸排列顺序的多样性决定了DNA分子信息储存量巨大。",
+    "parentId": "BIO-B1-C02-S05-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T03-A02"
+    ],
+    "suggestedExamType": "结构与功能",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T03-A04",
+    "type": "ATOMIC",
+    "content": "部分病毒的遗传信息储存在RNA中。",
+    "parentId": "BIO-B1-C02-S05-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T03-A01"
+    ],
+    "suggestedExamType": "特例辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T03-A05",
+    "type": "ATOMIC",
+    "content": "核酸在生物体的遗传、变异和蛋白质的生物合成中具有极其重要的作用。",
+    "parentId": "BIO-B1-C02-S05-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T03-A01"
+    ],
+    "suggestedExamType": "功能总结",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T04",
+    "type": "TOPIC",
+    "title": "生物大分子以碳链为骨架",
+    "parentId": "BIO-B1-C02-S05"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T04-A01",
+    "type": "ATOMIC",
+    "content": "多糖、蛋白质、核酸都是由许多单体连接而成的多聚体，称为生物大分子。",
+    "parentId": "BIO-B1-C02-S05-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T04-A02"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T04-A02",
+    "type": "ATOMIC",
+    "content": "每个单体都以若干个相连的碳原子构成的碳链为基本骨架。",
+    "parentId": "BIO-B1-C02-S05-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T04-A01",
+      "BIO-B1-C02-S05-T04-A03"
+    ],
+    "suggestedExamType": "结构共性",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S05-T04-A03",
+    "type": "ATOMIC",
+    "content": "生物大分子都是以碳链为骨架的。",
+    "parentId": "BIO-B1-C02-S05-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S05-T04-A02"
+    ],
+    "suggestedExamType": "规律总结",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03",
+    "type": "CHAPTER",
+    "title": "第3章：细胞的基本结构",
+    "parentId": "BIO-B1"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01",
+    "type": "SECTION",
+    "title": "第1节：细胞膜的结构和功能",
+    "parentId": "BIO-B1-C03"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01",
+    "type": "TOPIC",
+    "title": "细胞膜的功能",
+    "parentId": "BIO-B1-C03-S01"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A01",
+    "type": "ATOMIC",
+    "content": "细胞膜的功能之一是将细胞与外界环境分隔开。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A02",
+      "BIO-B1-C03-S01-T01-A03",
+      "BIO-B1-C03-S01-T01-A04"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A02",
+    "type": "ATOMIC",
+    "content": "细胞膜保障了细胞内部环境的相对稳定。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A01"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A03",
+    "type": "ATOMIC",
+    "content": "细胞膜的功能之二是控制物质进出细胞。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A01",
+      "BIO-B1-C03-S01-T03-A08"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A04",
+    "type": "ATOMIC",
+    "content": "细胞膜的功能之三是进行细胞间的信息交流。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A01",
+      "BIO-B1-C03-S01-T03-A11"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A05",
+    "type": "ATOMIC",
+    "content": "细胞间信息交流方式之一是通过化学物质（如激素）间接传递。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A04"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A06",
+    "type": "ATOMIC",
+    "content": "细胞间信息交流方式之二是通过细胞膜直接接触传递。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A04"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T01-A07",
+    "type": "ATOMIC",
+    "content": "细胞间信息交流方式之三是通过通道（如植物胞间连丝）传递。",
+    "parentId": "BIO-B1-C03-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A04"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T02",
+    "type": "TOPIC",
+    "title": "细胞膜结构的探索历程",
+    "parentId": "BIO-B1-C03-S01"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T02-A01",
+    "type": "ATOMIC",
+    "content": "1895年，欧文顿实验证明细胞膜的主要成分中有脂质。",
+    "parentId": "BIO-B1-C03-S01-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "科学史实",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T02-A02",
+    "type": "ATOMIC",
+    "content": "1925年，戈特和格伦德尔的实验推断出细胞膜中的磷脂分子排列为连续的两层。",
+    "parentId": "BIO-B1-C03-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A03"
+    ],
+    "suggestedExamType": "科学史实",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T02-A03",
+    "type": "ATOMIC",
+    "content": "1959年，罗伯特森提出了静态的“蛋白质-脂质-蛋白质”三明治模型。",
+    "parentId": "BIO-B1-C03-S01-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "科学史实",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T02-A04",
+    "type": "ATOMIC",
+    "content": "1970年，人鼠细胞融合实验证明了细胞膜上的分子是能够运动的。",
+    "parentId": "BIO-B1-C03-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A07"
+    ],
+    "suggestedExamType": "科学史实 / 实验分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T02-A05",
+    "type": "ATOMIC",
+    "content": "1972年，辛格和尼科尔森提出了流动镶嵌模型。",
+    "parentId": "BIO-B1-C03-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A01"
+    ],
+    "suggestedExamType": "科学史实",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03",
+    "type": "TOPIC",
+    "title": "流动镶嵌模型的基本内容",
+    "parentId": "BIO-B1-C03-S01"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A01",
+    "type": "ATOMIC",
+    "content": "细胞膜主要由脂质（磷脂为主）和蛋白质组成，此外还有少量糖类。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A02",
+      "BIO-B1-C03-S01-T03-A04"
+    ],
+    "suggestedExamType": "组成成分",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A02",
+    "type": "ATOMIC",
+    "content": "磷脂分子具有亲水的头部和疏水的尾部。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A03"
+    ],
+    "suggestedExamType": "结构特性",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A03",
+    "type": "ATOMIC",
+    "content": "磷脂双分子层构成了细胞膜的基本支架。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A02"
+    ],
+    "suggestedExamType": "核心结构",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A04",
+    "type": "ATOMIC",
+    "content": "蛋白质分子以镶嵌、贯穿或覆盖等方式分布在磷脂双分子层中。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A03"
+    ],
+    "suggestedExamType": "结构细节",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A05",
+    "type": "ATOMIC",
+    "content": "构成细胞膜的磷脂分子是能够运动的。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A06",
+      "BIO-B1-C03-S01-T03-A07"
+    ],
+    "suggestedExamType": "结构特性",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A06",
+    "type": "ATOMIC",
+    "content": "构成细胞膜的大多数蛋白质分子也是能够运动的。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A05",
+      "BIO-B1-C03-S01-T03-A07"
+    ],
+    "suggestedExamType": "结构特性",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A07",
+    "type": "ATOMIC",
+    "content": "细胞膜的结构特点是具有一定的流动性。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T02-A04",
+      "BIO-B1-C03-S01-T03-A05",
+      "BIO-B1-C03-S01-T03-A06",
+      "BIO-B1-C03-S01-T03-A08"
+    ],
+    "suggestedExamType": "核心特性 / 结构特点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A08",
+    "type": "ATOMIC",
+    "content": "细胞膜的功能特点是具有选择透过性。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A03",
+      "BIO-B1-C03-S01-T03-A07"
+    ],
+    "suggestedExamType": "核心特性 / 功能特点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A09",
+    "type": "ATOMIC",
+    "content": "在细胞膜的外表面，有一层由细胞膜上的蛋白质与糖类结合形成的糖蛋白。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A10"
+    ],
+    "suggestedExamType": "结构组成",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A10",
+    "type": "ATOMIC",
+    "content": "糖蛋白形成的覆盖层称为糖被。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A09",
+      "BIO-B1-C03-S01-T03-A11"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S01-T03-A11",
+    "type": "ATOMIC",
+    "content": "糖被在细胞识别、保护和润滑等方面具有重要功能。",
+    "parentId": "BIO-B1-C03-S01-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T01-A04",
+      "BIO-B1-C03-S01-T03-A10"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02",
+    "type": "SECTION",
+    "title": "第2节：细胞器之间的分工合作",
+    "parentId": "BIO-B1-C03"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01",
+    "type": "TOPIC",
+    "title": "各种细胞器的结构和功能",
+    "parentId": "BIO-B1-C03-S02"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A01",
+    "type": "ATOMIC",
+    "content": "线粒体是细胞进行有氧呼吸的主要场所。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A02"
+    ],
+    "suggestedExamType": "功能记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A02",
+    "type": "ATOMIC",
+    "content": "线粒体是细胞的“动力车间”，细胞生命活动所需能量大约95%来自线粒体。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A01",
+      "BIO-B1-C03-S02-T02-A08"
+    ],
+    "suggestedExamType": "功能理解 / 比喻",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A03",
+    "type": "ATOMIC",
+    "content": "叶绿体是绿色植物能进行光合作用的细胞含有的细胞器。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A04"
+    ],
+    "suggestedExamType": "功能与分布",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A04",
+    "type": "ATOMIC",
+    "content": "叶绿体是植物细胞的“养料制造车间”和“能量转换站”。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A03"
+    ],
+    "suggestedExamType": "功能理解 / 比喻",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A05",
+    "type": "ATOMIC",
+    "content": "内质网是蛋白质等大分子物质的合成、加工场所。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A06",
+      "BIO-B1-C03-S02-T02-A02"
+    ],
+    "suggestedExamType": "功能记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A06",
+    "type": "ATOMIC",
+    "content": "内质网是细胞内物质的运输通道。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A05",
+      "BIO-B1-C03-S02-T02-A03"
+    ],
+    "suggestedExamType": "功能记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A07",
+    "type": "ATOMIC",
+    "content": "附着有核糖体的内质网称为粗面内质网。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A08"
+    ],
+    "suggestedExamType": "概念辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A08",
+    "type": "ATOMIC",
+    "content": "不含核糖体的内质网称为光面内质网。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A07"
+    ],
+    "suggestedExamType": "概念辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A09",
+    "type": "ATOMIC",
+    "content": "高尔基体主要是对来自内质网的蛋白质进行加工、分类和包装。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A10",
+      "BIO-B1-C03-S02-T02-A04"
+    ],
+    "suggestedExamType": "功能记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A10",
+    "type": "ATOMIC",
+    "content": "高尔基体是细胞的“车间”及“发送站”。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A09"
+    ],
+    "suggestedExamType": "功能理解 / 比喻",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A11",
+    "type": "ATOMIC",
+    "content": "核糖体是“生产蛋白质的机器”。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T02-A01"
+    ],
+    "suggestedExamType": "功能理解 / 比喻",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A12",
+    "type": "ATOMIC",
+    "content": "核糖体有的附着在内质网上，有的游离在细胞质基质中。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A07"
+    ],
+    "suggestedExamType": "分布记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A13",
+    "type": "ATOMIC",
+    "content": "液泡主要存在于植物细胞中，内有细胞液。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A14"
+    ],
+    "suggestedExamType": "结构与分布",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A14",
+    "type": "ATOMIC",
+    "content": "液泡可以调节植物细胞内的环境，使植物细胞保持坚挺。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A13"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A15",
+    "type": "ATOMIC",
+    "content": "溶酶体是细胞的“消化车间”，内含多种水解酶。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A16"
+    ],
+    "suggestedExamType": "功能理解 / 比喻",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A16",
+    "type": "ATOMIC",
+    "content": "溶酶体能分解衰老、损伤的细胞器，吞噬并杀死侵入细胞的病毒或细菌。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A15"
+    ],
+    "suggestedExamType": "功能记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A17",
+    "type": "ATOMIC",
+    "content": "中心体分布在动物和低等植物细胞中。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A18"
+    ],
+    "suggestedExamType": "分布记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A18",
+    "type": "ATOMIC",
+    "content": "中心体与细胞的有丝分裂有关。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A17"
+    ],
+    "suggestedExamType": "功能记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A19",
+    "type": "ATOMIC",
+    "content": "细胞骨架是由蛋白质纤维组成的网架结构。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A20"
+    ],
+    "suggestedExamType": "结构定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A20",
+    "type": "ATOMIC",
+    "content": "细胞骨架与细胞运动、分裂、分化以及物质运输等生命活动密切相关。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A19",
+      "BIO-B1-C03-S02-T01-A21"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A21",
+    "type": "ATOMIC",
+    "content": "细胞骨架具有维持细胞形态、支撑细胞器的功能。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A19",
+      "BIO-B1-C03-S02-T01-A20"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02",
+    "type": "TOPIC",
+    "title": "分泌蛋白的合成与运输",
+    "parentId": "BIO-B1-C03-S02"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02-A01",
+    "type": "ATOMIC",
+    "content": "分泌蛋白在核糖体上合成后，进入内质网进行加工。",
+    "parentId": "BIO-B1-C03-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A11",
+      "BIO-B1-C03-S02-T01-A05",
+      "BIO-B1-C03-S02-T02-A02"
+    ],
+    "suggestedExamType": "过程分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02-A02",
+    "type": "ATOMIC",
+    "content": "内质网以出芽形式形成囊泡，包裹着蛋白质运向高尔基体。",
+    "parentId": "BIO-B1-C03-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T02-A01",
+      "BIO-B1-C03-S02-T02-A03"
+    ],
+    "suggestedExamType": "过程分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02-A03",
+    "type": "ATOMIC",
+    "content": "囊泡与高尔基体膜融合，蛋白质进入高尔基体进行进一步的加工、分类和包装。",
+    "parentId": "BIO-B1-C03-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A09",
+      "BIO-B1-C03-S02-T02-A02",
+      "BIO-B1-C03-S02-T02-A04"
+    ],
+    "suggestedExamType": "过程分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02-A04",
+    "type": "ATOMIC",
+    "content": "高尔基体形成囊泡，包裹着蛋白质运向细胞膜。",
+    "parentId": "BIO-B1-C03-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T02-A03",
+      "BIO-B1-C03-S02-T02-A05"
+    ],
+    "suggestedExamType": "过程分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02-A05",
+    "type": "ATOMIC",
+    "content": "囊泡与细胞膜融合，将蛋白质分泌到细胞外。",
+    "parentId": "BIO-B1-C03-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T02-A04"
+    ],
+    "suggestedExamType": "过程分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02-A06",
+    "type": "ATOMIC",
+    "content": "分泌蛋白的合成、加工和运输过程需要线粒体提供能量。",
+    "parentId": "BIO-B1-C03-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A02",
+      "BIO-B1-C03-S02-T02-A01",
+      "BIO-B1-C03-S02-T02-A02",
+      "BIO-B1-C03-S02-T02-A03",
+      "BIO-B1-C03-S02-T02-A04",
+      "BIO-B1-C03-S02-T02-A05"
+    ],
+    "suggestedExamType": "过程分析 / 能量供应",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T03",
+    "type": "TOPIC",
+    "title": "细胞的生物膜系统",
+    "parentId": "BIO-B1-C03-S02"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T03-A01",
+    "type": "ATOMIC",
+    "content": "细胞膜、细胞器膜和核膜等结构，共同构成细胞的生物膜系统。",
+    "parentId": "BIO-B1-C03-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T03-A02"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T03-A02",
+    "type": "ATOMIC",
+    "content": "核糖体和中心体没有膜结构，不属于生物膜系统。",
+    "parentId": "BIO-B1-C03-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T03-A01",
+      "BIO-B1-C03-S02-T01-A11",
+      "BIO-B1-C03-S02-T01-A17"
+    ],
+    "suggestedExamType": "概念辨析 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T03-A03",
+    "type": "ATOMIC",
+    "content": "生物膜系统在组成成分和结构上很相似，在结构和功能上紧密联系。",
+    "parentId": "BIO-B1-C03-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T02-A01"
+    ],
+    "suggestedExamType": "特性总结",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T03-A04",
+    "type": "ATOMIC",
+    "content": "生物膜系统为多种酶提供了附着位点，是许多重要化学反应的场所。",
+    "parentId": "BIO-B1-C03-S02-T03",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T03-A05",
+    "type": "ATOMIC",
+    "content": "生物膜系统把细胞分隔成一个个小的区室（细胞器），使多种化学反应能同时进行而互不干扰。",
+    "parentId": "BIO-B1-C03-S02-T03",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解 / 区室化",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03",
+    "type": "SECTION",
+    "title": "第3节：细胞核的结构和功能",
+    "parentId": "BIO-B1-C03"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T01",
+    "type": "TOPIC",
+    "title": "细胞核的功能",
+    "parentId": "BIO-B1-C03-S03"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T01-A01",
+    "type": "ATOMIC",
+    "content": "细胞核是细胞遗传和代谢的控制中心。",
+    "parentId": "BIO-B1-C03-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T01-A02",
+      "BIO-B1-C03-S03-T01-A03"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T01-A02",
+    "type": "ATOMIC",
+    "content": "细胞核控制着细胞的代谢活动（如变形虫实验证明）。",
+    "parentId": "BIO-B1-C03-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T01-A01"
+    ],
+    "suggestedExamType": "功能理解 / 实验结论",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T01-A03",
+    "type": "ATOMIC",
+    "content": "细胞核控制着生物体的遗传性状（如伞藻嫁接、克隆牛实验证明）。",
+    "parentId": "BIO-B1-C03-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T01-A01"
+    ],
+    "suggestedExamType": "功能理解 / 实验结论",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T01-A04",
+    "type": "ATOMIC",
+    "content": "细胞核是遗传信息库，因为其内部的DNA上储存着遗传信息。",
+    "parentId": "BIO-B1-C03-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T01-A01",
+      "BIO-B1-C03-S03-T02-A07"
+    ],
+    "suggestedExamType": "功能理解 / 原因分析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02",
+    "type": "TOPIC",
+    "title": "细胞核的结构",
+    "parentId": "BIO-B1-C03-S03"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A01",
+    "type": "ATOMIC",
+    "content": "核膜是双层膜结构，把核内物质与细胞质分开。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A02"
+    ],
+    "suggestedExamType": "结构与功能",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A02",
+    "type": "ATOMIC",
+    "content": "核孔是核膜上的通道，实现核质之间频繁的物质交换和信息交流。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A01",
+      "BIO-B1-C03-S03-T02-A03"
+    ],
+    "suggestedExamType": "结构与功能",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A03",
+    "type": "ATOMIC",
+    "content": "核孔具有选择性，并非所有物质都能自由通过。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A02"
+    ],
+    "suggestedExamType": "功能特性 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A04",
+    "type": "ATOMIC",
+    "content": "染色质主要由DNA和蛋白质组成。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A05",
+      "BIO-B1-C03-S03-T02-A07"
+    ],
+    "suggestedExamType": "组成成分",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A05",
+    "type": "ATOMIC",
+    "content": "染色质是极细的丝状物，容易被碱性染料染成深色。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A04"
+    ],
+    "suggestedExamType": "物理性质",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A06",
+    "type": "ATOMIC",
+    "content": "染色质和染色体是同一物质在细胞不同时期的两种存在状态。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A04"
+    ],
+    "suggestedExamType": "核心概念 / 比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A07",
+    "type": "ATOMIC",
+    "content": "DNA是遗传信息的载体。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T01-A04",
+      "BIO-B1-C03-S03-T02-A04"
+    ],
+    "suggestedExamType": "功能定位",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A08",
+    "type": "ATOMIC",
+    "content": "细胞分裂时，染色质高度螺旋化、缩短变粗，形成染色体。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A06"
+    ],
+    "suggestedExamType": "过程描述",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A09",
+    "type": "ATOMIC",
+    "content": "细胞分裂结束时，染色体解螺旋，重新成为细丝状的染色质。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A06",
+      "BIO-B1-C03-S03-T02-A08"
+    ],
+    "suggestedExamType": "过程描述",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A10",
+    "type": "ATOMIC",
+    "content": "核仁与某种RNA的合成以及核糖体的形成有关。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "结构与功能",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T03",
+    "type": "TOPIC",
+    "title": "细胞是一个统一的整体",
+    "parentId": "BIO-B1-C03-S03"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T03-A01",
+    "type": "ATOMIC",
+    "content": "细胞的各组分之间分工合作，共同构成一个统一的整体。",
+    "parentId": "BIO-B1-C03-S03-T03",
+    "relatedKpids": [],
+    "suggestedExamType": "系统观念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T03-A02",
+    "type": "ATOMIC",
+    "content": "细胞既是生物体结构的基本单位，也是生物体代谢和遗传的基本单位。",
+    "parentId": "BIO-B1-C03-S03-T03",
+    "relatedKpids": [
+      "BIO-B1-C01-S01-T02-A04"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04",
+    "type": "CHAPTER",
+    "title": "第4章：细胞的物质输入和输出",
+    "parentId": "BIO-B1"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01",
+    "type": "SECTION",
+    "title": "第1节：被动运输",
+    "parentId": "BIO-B1-C04"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01",
+    "type": "TOPIC",
+    "title": "渗透作用原理与水分跨膜运输",
+    "parentId": "BIO-B1-C04-S01"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A01",
+    "type": "ATOMIC",
+    "content": "水分子（或其他溶剂分子）通过半透膜的扩散称为渗透作用。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A02",
+      "BIO-B1-C04-S01-T01-A03"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A02",
+    "type": "ATOMIC",
+    "content": "渗透作用发生的条件之一是具有半透膜。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A01",
+      "BIO-B1-C04-S01-T01-A03"
+    ],
+    "suggestedExamType": "条件分析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A03",
+    "type": "ATOMIC",
+    "content": "渗透作用发生的条件之二是半透膜两侧存在浓度差。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A01",
+      "BIO-B1-C04-S01-T01-A02"
+    ],
+    "suggestedExamType": "条件分析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A04",
+    "type": "ATOMIC",
+    "content": "动物细胞的细胞膜相当于一层半透膜。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A05"
+    ],
+    "suggestedExamType": "类比理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A05",
+    "type": "ATOMIC",
+    "content": "成熟植物细胞的原生质层相当于一层半透膜。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A04",
+      "BIO-B1-C04-S01-T01-A06"
+    ],
+    "suggestedExamType": "类比理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A06",
+    "type": "ATOMIC",
+    "content": "原生质层包括细胞膜、液泡膜以及两层膜之间的细胞质。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A05"
+    ],
+    "suggestedExamType": "结构组成",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A07",
+    "type": "ATOMIC",
+    "content": "植物细胞的细胞壁是全透性的，不构成半透膜。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A05"
+    ],
+    "suggestedExamType": "概念辨析 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A08",
+    "type": "ATOMIC",
+    "content": "当外界溶液浓度低于细胞质浓度时，动物细胞会吸水膨胀。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A09"
+    ],
+    "suggestedExamType": "现象与原理",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A09",
+    "type": "ATOMIC",
+    "content": "当外界溶液浓度高于细胞质浓度时，动物细胞会失水皱缩。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A08"
+    ],
+    "suggestedExamType": "现象与原理",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A10",
+    "type": "ATOMIC",
+    "content": "当外界溶液浓度低于细胞液浓度时，植物细胞会吸水。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A11"
+    ],
+    "suggestedExamType": "现象与原理",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A11",
+    "type": "ATOMIC",
+    "content": "当外界溶液浓度高于细胞液浓度时，植物细胞会失水，发生质壁分离。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A10",
+      "BIO-B1-C04-S01-T01-A12"
+    ],
+    "suggestedExamType": "现象与原理",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T01-A12",
+    "type": "ATOMIC",
+    "content": "质壁分离是指植物细胞的原生质层与细胞壁分离的现象。",
+    "parentId": "BIO-B1-C04-S01-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A11"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02",
+    "type": "TOPIC",
+    "title": "被动运输",
+    "parentId": "BIO-B1-C04-S01"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A01",
+    "type": "ATOMIC",
+    "content": "物质顺浓度梯度进出细胞，且不消耗细胞化学反应所释放能量的运输方式，称为被动运输。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A02",
+      "BIO-B1-C04-S01-T02-A03"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A02",
+    "type": "ATOMIC",
+    "content": "被动运输的动力来源是膜内外物质的浓度差。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A01"
+    ],
+    "suggestedExamType": "原理理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A03",
+    "type": "ATOMIC",
+    "content": "被动运输包括自由扩散和协助扩散两类。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A01",
+      "BIO-B1-C04-S01-T02-A04",
+      "BIO-B1-C04-S01-T02-A06"
+    ],
+    "suggestedExamType": "概念分类",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A04",
+    "type": "ATOMIC",
+    "content": "物质通过简单的扩散作用进出细胞的方式，叫作自由扩散。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A03",
+      "BIO-B1-C04-S01-T02-A05"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A05",
+    "type": "ATOMIC",
+    "content": "氧气、二氧化碳、甘油、乙醇、苯等小分子物质通过自由扩散进出细胞。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A04"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A06",
+    "type": "ATOMIC",
+    "content": "借助膜上转运蛋白进出细胞的物质扩散方式，叫作协助扩散。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A03",
+      "BIO-B1-C04-S01-T02-A07"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A07",
+    "type": "ATOMIC",
+    "content": "葡萄糖、氨基酸、离子等物质通过协助扩散进出细胞。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A06"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A08",
+    "type": "ATOMIC",
+    "content": "转运蛋白可以分为载体蛋白和通道蛋白两种类型。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A06"
+    ],
+    "suggestedExamType": "概念分类",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A09",
+    "type": "ATOMIC",
+    "content": "载体蛋白通过与被转运物质结合并发生构象改变来转运物质。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A08"
+    ],
+    "suggestedExamType": "作用机制",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A10",
+    "type": "ATOMIC",
+    "content": "通道蛋白形成亲水通道，让特定物质通过。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A08"
+    ],
+    "suggestedExamType": "作用机制",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A11",
+    "type": "ATOMIC",
+    "content": "水分子跨膜运输既可以通过自由扩散，也可以通过水通道蛋白进行协助扩散。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T01-A01",
+      "BIO-B1-C04-S01-T02-A04",
+      "BIO-B1-C04-S01-T02-A06"
+    ],
+    "suggestedExamType": "综合理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S01-T02-A12",
+    "type": "ATOMIC",
+    "content": "协助扩散的速率受膜上转运蛋白数量的限制。",
+    "parentId": "BIO-B1-C04-S01-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A06"
+    ],
+    "suggestedExamType": "影响因素",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02",
+    "type": "SECTION",
+    "title": "第2节：主动运输与胞吞、胞吐",
+    "parentId": "BIO-B1-C04"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01",
+    "type": "TOPIC",
+    "title": "主动运输",
+    "parentId": "BIO-B1-C04-S02"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A01",
+    "type": "ATOMIC",
+    "content": "主动运输是物质逆浓度梯度进行的跨膜运输方式。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A01",
+      "BIO-B1-C04-S02-T01-A02",
+      "BIO-B1-C04-S02-T01-A03"
+    ],
+    "suggestedExamType": "核心概念 / 比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A02",
+    "type": "ATOMIC",
+    "content": "主动运输需要载体蛋白的协助。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A06",
+      "BIO-B1-C04-S02-T01-A01",
+      "BIO-B1-C04-S02-T01-A04"
+    ],
+    "suggestedExamType": "核心概念 / 条件",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A03",
+    "type": "ATOMIC",
+    "content": "主动运输需要消耗细胞内化学反应所释放的能量（通常来自ATP）。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A01",
+      "BIO-B1-C04-S02-T01-A01"
+    ],
+    "suggestedExamType": "核心概念 / 条件",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A04",
+    "type": "ATOMIC",
+    "content": "主动运输中的载体蛋白与被运输的物质结合后，在能量驱动下发生空间结构改变，从而转运物质。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T01-A02",
+      "BIO-B1-C04-S02-T01-A03"
+    ],
+    "suggestedExamType": "作用机制",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A05",
+    "type": "ATOMIC",
+    "content": "主动运输保证了细胞能够按照生命活动的需要，选择性地吸收所需物质。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A08",
+      "BIO-B1-C04-S02-T01-A06"
+    ],
+    "suggestedExamType": "意义理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A06",
+    "type": "ATOMIC",
+    "content": "主动运输保证了细胞能够排出代谢废物和对细胞有害的物质。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A08",
+      "BIO-B1-C04-S02-T01-A05"
+    ],
+    "suggestedExamType": "意义理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A07",
+    "type": "ATOMIC",
+    "content": "植物根细胞吸收土壤中的无机盐离子是主动运输。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T01-A01"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02",
+    "type": "TOPIC",
+    "title": "胞吞与胞吐",
+    "parentId": "BIO-B1-C04-S02"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A01",
+    "type": "ATOMIC",
+    "content": "蛋白质、多糖等生物大分子不能通过转运蛋白进行跨膜运输。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T02-A02",
+      "BIO-B1-C04-S02-T02-A04"
+    ],
+    "suggestedExamType": "前提辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A02",
+    "type": "ATOMIC",
+    "content": "胞吞是细胞摄取大分子物质的一种方式。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T02-A03"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A03",
+    "type": "ATOMIC",
+    "content": "胞吞过程中，细胞膜内陷形成囊泡，将大分子物质包裹进来。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T02-A02",
+      "BIO-B1-C04-S02-T02-A06"
+    ],
+    "suggestedExamType": "过程描述",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A04",
+    "type": "ATOMIC",
+    "content": "胞吐是细胞排出大分子物质的一种方式。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T02-A05"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A05",
+    "type": "ATOMIC",
+    "content": "胞吐过程中，包裹着大分子的囊泡移动到细胞膜处并与之融合，将物质排出细胞。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T02-A04",
+      "BIO-B1-C04-S02-T02-A06"
+    ],
+    "suggestedExamType": "过程描述",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A06",
+    "type": "ATOMIC",
+    "content": "胞吞和胞吐过程都依赖于细胞膜的流动性。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A07",
+      "BIO-B1-C04-S02-T02-A03",
+      "BIO-B1-C04-S02-T02-A05"
+    ],
+    "suggestedExamType": "结构基础",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A07",
+    "type": "ATOMIC",
+    "content": "胞吞和胞吐过程都需要消耗细胞呼吸所释放的能量。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T02-A02",
+      "BIO-B1-C04-S02-T02-A04"
+    ],
+    "suggestedExamType": "条件分析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T03",
+    "type": "TOPIC",
+    "title": "物质跨膜运输方式总结",
+    "parentId": "BIO-B1-C04-S02"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T03-A01",
+    "type": "ATOMIC",
+    "content": "细胞膜上转运蛋白的种类和数量决定了细胞膜的选择透过性。",
+    "parentId": "BIO-B1-C04-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A08",
+      "BIO-B1-C04-S01-T02-A06",
+      "BIO-B1-C04-S02-T01-A02"
+    ],
+    "suggestedExamType": "原理总结",
+    "suggestedDifficulty": "中"
   }
 ]

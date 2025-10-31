@@ -1,0 +1,393 @@
+[
+  {
+    "kpid": "BIO-B1-C03-S02",
+    "type": "SECTION",
+    "title": "第2节：细胞器之间的分工合作",
+    "parentId": "BIO-B1-C03"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01",
+    "type": "TOPIC",
+    "title": "各种细胞器的结构和功能",
+    "parentId": "BIO-B1-C03-S02"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A01",
+    "type": "ATOMIC",
+    "content": "线粒体是细胞进行有氧呼吸的主要场所。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A02"
+    ],
+    "suggestedExamType": "功能记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A02",
+    "type": "ATOMIC",
+    "content": "线粒体是细胞的“动力车间”，细胞生命活动所需能量大约95%来自线粒体。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A01",
+      "BIO-B1-C03-S02-T02-A08"
+    ],
+    "suggestedExamType": "功能理解 / 比喻",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A03",
+    "type": "ATOMIC",
+    "content": "叶绿体是绿色植物能进行光合作用的细胞含有的细胞器。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A04"
+    ],
+    "suggestedExamType": "功能与分布",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A04",
+    "type": "ATOMIC",
+    "content": "叶绿体是植物细胞的“养料制造车间”和“能量转换站”。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A03"
+    ],
+    "suggestedExamType": "功能理解 / 比喻",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A05",
+    "type": "ATOMIC",
+    "content": "内质网是蛋白质等大分子物质的合成、加工场所。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A06",
+      "BIO-B1-C03-S02-T02-A02"
+    ],
+    "suggestedExamType": "功能记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A06",
+    "type": "ATOMIC",
+    "content": "内质网是细胞内物质的运输通道。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A05",
+      "BIO-B1-C03-S02-T02-A03"
+    ],
+    "suggestedExamType": "功能记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A07",
+    "type": "ATOMIC",
+    "content": "附着有核糖体的内质网称为粗面内质网。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A08"
+    ],
+    "suggestedExamType": "概念辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A08",
+    "type": "ATOMIC",
+    "content": "不含核糖体的内质网称为光面内质网。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A07"
+    ],
+    "suggestedExamType": "概念辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A09",
+    "type": "ATOMIC",
+    "content": "高尔基体主要是对来自内质网的蛋白质进行加工、分类和包装。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A10",
+      "BIO-B1-C03-S02-T02-A04"
+    ],
+    "suggestedExamType": "功能记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A10",
+    "type": "ATOMIC",
+    "content": "高尔基体是细胞的“车间”及“发送站”。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A09"
+    ],
+    "suggestedExamType": "功能理解 / 比喻",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A11",
+    "type": "ATOMIC",
+    "content": "核糖体是“生产蛋白质的机器”。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T02-A01"
+    ],
+    "suggestedExamType": "功能理解 / 比喻",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A12",
+    "type": "ATOMIC",
+    "content": "核糖体有的附着在内质网上，有的游离在细胞质基质中。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A07"
+    ],
+    "suggestedExamType": "分布记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A13",
+    "type": "ATOMIC",
+    "content": "液泡主要存在于植物细胞中，内有细胞液。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A14"
+    ],
+    "suggestedExamType": "结构与分布",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A14",
+    "type": "ATOMIC",
+    "content": "液泡可以调节植物细胞内的环境，使植物细胞保持坚挺。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A13"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A15",
+    "type": "ATOMIC",
+    "content": "溶酶体是细胞的“消化车间”，内含多种水解酶。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A16"
+    ],
+    "suggestedExamType": "功能理解 / 比喻",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A16",
+    "type": "ATOMIC",
+    "content": "溶酶体能分解衰老、损伤的细胞器，吞噬并杀死侵入细胞的病毒或细菌。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A15"
+    ],
+    "suggestedExamType": "功能记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A17",
+    "type": "ATOMIC",
+    "content": "中心体分布在动物和低等植物细胞中。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A18"
+    ],
+    "suggestedExamType": "分布记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A18",
+    "type": "ATOMIC",
+    "content": "中心体与细胞的有丝分裂有关。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A17"
+    ],
+    "suggestedExamType": "功能记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A19",
+    "type": "ATOMIC",
+    "content": "细胞骨架是由蛋白质纤维组成的网架结构。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A20"
+    ],
+    "suggestedExamType": "结构定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A20",
+    "type": "ATOMIC",
+    "content": "细胞骨架与细胞运动、分裂、分化以及物质运输等生命活动密切相关。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A19",
+      "BIO-B1-C03-S02-T01-A21"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T01-A21",
+    "type": "ATOMIC",
+    "content": "细胞骨架具有维持细胞形态、支撑细胞器的功能。",
+    "parentId": "BIO-B1-C03-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A19",
+      "BIO-B1-C03-S02-T01-A20"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02",
+    "type": "TOPIC",
+    "title": "分泌蛋白的合成与运输",
+    "parentId": "BIO-B1-C03-S02"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02-A01",
+    "type": "ATOMIC",
+    "content": "分泌蛋白在核糖体上合成后，进入内质网进行加工。",
+    "parentId": "BIO-B1-C03-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A11",
+      "BIO-B1-C03-S02-T01-A05",
+      "BIO-B1-C03-S02-T02-A02"
+    ],
+    "suggestedExamType": "过程分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02-A02",
+    "type": "ATOMIC",
+    "content": "内质网以出芽形式形成囊泡，包裹着蛋白质运向高尔基体。",
+    "parentId": "BIO-B1-C03-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T02-A01",
+      "BIO-B1-C03-S02-T02-A03"
+    ],
+    "suggestedExamType": "过程分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02-A03",
+    "type": "ATOMIC",
+    "content": "囊泡与高尔基体膜融合，蛋白质进入高尔基体进行进一步的加工、分类和包装。",
+    "parentId": "BIO-B1-C03-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A09",
+      "BIO-B1-C03-S02-T02-A02",
+      "BIO-B1-C03-S02-T02-A04"
+    ],
+    "suggestedExamType": "过程分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02-A04",
+    "type": "ATOMIC",
+    "content": "高尔基体形成囊泡，包裹着蛋白质运向细胞膜。",
+    "parentId": "BIO-B1-C03-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T02-A03",
+      "BIO-B1-C03-S02-T02-A05"
+    ],
+    "suggestedExamType": "过程分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02-A05",
+    "type": "ATOMIC",
+    "content": "囊泡与细胞膜融合，将蛋白质分泌到细胞外。",
+    "parentId": "BIO-B1-C03-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T02-A04"
+    ],
+    "suggestedExamType": "过程分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T02-A06",
+    "type": "ATOMIC",
+    "content": "分泌蛋白的合成、加工和运输过程需要线粒体提供能量。",
+    "parentId": "BIO-B1-C03-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T01-A02",
+      "BIO-B1-C03-S02-T02-A01",
+      "BIO-B1-C03-S02-T02-A02",
+      "BIO-B1-C03-S02-T02-A03",
+      "BIO-B1-C03-S02-T02-A04",
+      "BIO-B1-C03-S02-T02-A05"
+    ],
+    "suggestedExamType": "过程分析 / 能量供应",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T03",
+    "type": "TOPIC",
+    "title": "细胞的生物膜系统",
+    "parentId": "BIO-B1-C03-S02"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T03-A01",
+    "type": "ATOMIC",
+    "content": "细胞膜、细胞器膜和核膜等结构，共同构成细胞的生物膜系统。",
+    "parentId": "BIO-B1-C03-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T03-A02"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T03-A02",
+    "type": "ATOMIC",
+    "content": "核糖体和中心体没有膜结构，不属于生物膜系统。",
+    "parentId": "BIO-B1-C03-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T03-A01",
+      "BIO-B1-C03-S02-T01-A11",
+      "BIO-B1-C03-S02-T01-A17"
+    ],
+    "suggestedExamType": "概念辨析 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T03-A03",
+    "type": "ATOMIC",
+    "content": "生物膜系统在组成成分和结构上很相似，在结构和功能上紧密联系。",
+    "parentId": "BIO-B1-C03-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S02-T02-A01"
+    ],
+    "suggestedExamType": "特性总结",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T03-A04",
+    "type": "ATOMIC",
+    "content": "生物膜系统为多种酶提供了附着位点，是许多重要化学反应的场所。",
+    "parentId": "BIO-B1-C03-S02-T03",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S02-T03-A05",
+    "type": "ATOMIC",
+    "content": "生物膜系统把细胞分隔成一个个小的区室（细胞器），使多种化学反应能同时进行而互不干扰。",
+    "parentId": "BIO-B1-C03-S02-T03",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解 / 区室化",
+    "suggestedDifficulty": "中"
+  }
+]

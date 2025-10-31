@@ -1,0 +1,207 @@
+[
+  {
+    "kpid": "BIO-B1-C04-S02",
+    "type": "SECTION",
+    "title": "第2节：主动运输与胞吞、胞吐",
+    "parentId": "BIO-B1-C04"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01",
+    "type": "TOPIC",
+    "title": "主动运输",
+    "parentId": "BIO-B1-C04-S02"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A01",
+    "type": "ATOMIC",
+    "content": "主动运输是物质逆浓度梯度进行的跨膜运输方式。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A01",
+      "BIO-B1-C04-S02-T01-A02",
+      "BIO-B1-C04-S02-T01-A03"
+    ],
+    "suggestedExamType": "核心概念 / 比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A02",
+    "type": "ATOMIC",
+    "content": "主动运输需要载体蛋白的协助。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A06",
+      "BIO-B1-C04-S02-T01-A01",
+      "BIO-B1-C04-S02-T01-A04"
+    ],
+    "suggestedExamType": "核心概念 / 条件",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A03",
+    "type": "ATOMIC",
+    "content": "主动运输需要消耗细胞内化学反应所释放的能量（通常来自ATP）。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S01-T02-A01",
+      "BIO-B1-C04-S02-T01-A01"
+    ],
+    "suggestedExamType": "核心概念 / 条件",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A04",
+    "type": "ATOMIC",
+    "content": "主动运输中的载体蛋白与被运输的物质结合后，在能量驱动下发生空间结构改变，从而转运物质。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T01-A02",
+      "BIO-B1-C04-S02-T01-A03"
+    ],
+    "suggestedExamType": "作用机制",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A05",
+    "type": "ATOMIC",
+    "content": "主动运输保证了细胞能够按照生命活动的需要，选择性地吸收所需物质。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A08",
+      "BIO-B1-C04-S02-T01-A06"
+    ],
+    "suggestedExamType": "意义理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A06",
+    "type": "ATOMIC",
+    "content": "主动运输保证了细胞能够排出代谢废物和对细胞有害的物质。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A08",
+      "BIO-B1-C04-S02-T01-A05"
+    ],
+    "suggestedExamType": "意义理解",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T01-A07",
+    "type": "ATOMIC",
+    "content": "植物根细胞吸收土壤中的无机盐离子是主动运输。",
+    "parentId": "BIO-B1-C04-S02-T01",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T01-A01"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02",
+    "type": "TOPIC",
+    "title": "胞吞与胞吐",
+    "parentId": "BIO-B1-C04-S02"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A01",
+    "type": "ATOMIC",
+    "content": "蛋白质、多糖等生物大分子不能通过转运蛋白进行跨膜运输。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T02-A02",
+      "BIO-B1-C04-S02-T02-A04"
+    ],
+    "suggestedExamType": "前提辨析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A02",
+    "type": "ATOMIC",
+    "content": "胞吞是细胞摄取大分子物质的一种方式。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T02-A03"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A03",
+    "type": "ATOMIC",
+    "content": "胞吞过程中，细胞膜内陷形成囊泡，将大分子物质包裹进来。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T02-A02",
+      "BIO-B1-C04-S02-T02-A06"
+    ],
+    "suggestedExamType": "过程描述",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A04",
+    "type": "ATOMIC",
+    "content": "胞吐是细胞排出大分子物质的一种方式。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T02-A05"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A05",
+    "type": "ATOMIC",
+    "content": "胞吐过程中，包裹着大分子的囊泡移动到细胞膜处并与之融合，将物质排出细胞。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T02-A04",
+      "BIO-B1-C04-S02-T02-A06"
+    ],
+    "suggestedExamType": "过程描述",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A06",
+    "type": "ATOMIC",
+    "content": "胞吞和胞吐过程都依赖于细胞膜的流动性。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A07",
+      "BIO-B1-C04-S02-T02-A03",
+      "BIO-B1-C04-S02-T02-A05"
+    ],
+    "suggestedExamType": "结构基础",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T02-A07",
+    "type": "ATOMIC",
+    "content": "胞吞和胞吐过程都需要消耗细胞呼吸所释放的能量。",
+    "parentId": "BIO-B1-C04-S02-T02",
+    "relatedKpids": [
+      "BIO-B1-C04-S02-T02-A02",
+      "BIO-B1-C04-S02-T02-A04"
+    ],
+    "suggestedExamType": "条件分析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T03",
+    "type": "TOPIC",
+    "title": "物质跨膜运输方式总结",
+    "parentId": "BIO-B1-C04-S02"
+  },
+  {
+    "kpid": "BIO-B1-C04-S02-T03-A01",
+    "type": "ATOMIC",
+    "content": "细胞膜上转运蛋白的种类和数量决定了细胞膜的选择透过性。",
+    "parentId": "BIO-B1-C04-S02-T03",
+    "relatedKpids": [
+      "BIO-B1-C03-S01-T03-A08",
+      "BIO-B1-C04-S01-T02-A06",
+      "BIO-B1-C04-S02-T01-A02"
+    ],
+    "suggestedExamType": "原理总结",
+    "suggestedDifficulty": "中"
+  }
+]

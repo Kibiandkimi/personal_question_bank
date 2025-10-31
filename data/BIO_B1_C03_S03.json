@@ -1,0 +1,204 @@
+[
+  {
+    "kpid": "BIO-B1-C03-S03",
+    "type": "SECTION",
+    "title": "第3节：细胞核的结构和功能",
+    "parentId": "BIO-B1-C03"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T01",
+    "type": "TOPIC",
+    "title": "细胞核的功能",
+    "parentId": "BIO-B1-C03-S03"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T01-A01",
+    "type": "ATOMIC",
+    "content": "细胞核是细胞遗传和代谢的控制中心。",
+    "parentId": "BIO-B1-C03-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T01-A02",
+      "BIO-B1-C03-S03-T01-A03"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T01-A02",
+    "type": "ATOMIC",
+    "content": "细胞核控制着细胞的代谢活动（如变形虫实验证明）。",
+    "parentId": "BIO-B1-C03-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T01-A01"
+    ],
+    "suggestedExamType": "功能理解 / 实验结论",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T01-A03",
+    "type": "ATOMIC",
+    "content": "细胞核控制着生物体的遗传性状（如伞藻嫁接、克隆牛实验证明）。",
+    "parentId": "BIO-B1-C03-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T01-A01"
+    ],
+    "suggestedExamType": "功能理解 / 实验结论",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T01-A04",
+    "type": "ATOMIC",
+    "content": "细胞核是遗传信息库，因为其内部的DNA上储存着遗传信息。",
+    "parentId": "BIO-B1-C03-S03-T01",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T01-A01",
+      "BIO-B1-C03-S03-T02-A07"
+    ],
+    "suggestedExamType": "功能理解 / 原因分析",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02",
+    "type": "TOPIC",
+    "title": "细胞核的结构",
+    "parentId": "BIO-B1-C03-S03"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A01",
+    "type": "ATOMIC",
+    "content": "核膜是双层膜结构，把核内物质与细胞质分开。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A02"
+    ],
+    "suggestedExamType": "结构与功能",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A02",
+    "type": "ATOMIC",
+    "content": "核孔是核膜上的通道，实现核质之间频繁的物质交换和信息交流。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A01",
+      "BIO-B1-C03-S03-T02-A03"
+    ],
+    "suggestedExamType": "结构与功能",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A03",
+    "type": "ATOMIC",
+    "content": "核孔具有选择性，并非所有物质都能自由通过。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A02"
+    ],
+    "suggestedExamType": "功能特性 / 易错点",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A04",
+    "type": "ATOMIC",
+    "content": "染色质主要由DNA和蛋白质组成。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A05",
+      "BIO-B1-C03-S03-T02-A07"
+    ],
+    "suggestedExamType": "组成成分",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A05",
+    "type": "ATOMIC",
+    "content": "染色质是极细的丝状物，容易被碱性染料染成深色。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A04"
+    ],
+    "suggestedExamType": "物理性质",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A06",
+    "type": "ATOMIC",
+    "content": "染色质和染色体是同一物质在细胞不同时期的两种存在状态。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A04"
+    ],
+    "suggestedExamType": "核心概念 / 比较辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A07",
+    "type": "ATOMIC",
+    "content": "DNA是遗传信息的载体。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T01-A04",
+      "BIO-B1-C03-S03-T02-A04"
+    ],
+    "suggestedExamType": "功能定位",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A08",
+    "type": "ATOMIC",
+    "content": "细胞分裂时，染色质高度螺旋化、缩短变粗，形成染色体。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A06"
+    ],
+    "suggestedExamType": "过程描述",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A09",
+    "type": "ATOMIC",
+    "content": "细胞分裂结束时，染色体解螺旋，重新成为细丝状的染色质。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [
+      "BIO-B1-C03-S03-T02-A06",
+      "BIO-B1-C03-S03-T02-A08"
+    ],
+    "suggestedExamType": "过程描述",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T02-A10",
+    "type": "ATOMIC",
+    "content": "核仁与某种RNA的合成以及核糖体的形成有关。",
+    "parentId": "BIO-B1-C03-S03-T02",
+    "relatedKpids": [],
+    "suggestedExamType": "结构与功能",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T03",
+    "type": "TOPIC",
+    "title": "细胞是一个统一的整体",
+    "parentId": "BIO-B1-C03-S03"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T03-A01",
+    "type": "ATOMIC",
+    "content": "细胞的各组分之间分工合作，共同构成一个统一的整体。",
+    "parentId": "BIO-B1-C03-S03-T03",
+    "relatedKpids": [],
+    "suggestedExamType": "系统观念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C03-S03-T03-A02",
+    "type": "ATOMIC",
+    "content": "细胞既是生物体结构的基本单位，也是生物体代谢和遗传的基本单位。",
+    "parentId": "BIO-B1-C03-S03-T03",
+    "relatedKpids": [
+      "BIO-B1-C01-S01-T02-A04"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  }
+]

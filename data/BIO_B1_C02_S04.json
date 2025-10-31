@@ -1,0 +1,361 @@
+[
+  {
+    "kpid": "BIO-B1-C02-S04",
+    "type": "SECTION",
+    "title": "第4节：蛋白质是生命活动的主要承担者",
+    "parentId": "BIO-B1-C02"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01",
+    "type": "TOPIC",
+    "title": "蛋白质的功能",
+    "parentId": "BIO-B1-C02-S04"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A01",
+    "type": "ATOMIC",
+    "content": "蛋白质是生命活动的主要承担者。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A03"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A02",
+    "type": "ATOMIC",
+    "content": "蛋白质是构成细胞和生物体结构的重要物质（结构功能）。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A03"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A03",
+    "type": "ATOMIC",
+    "content": "肌肉、头发、羽毛、蛛丝等的主要成分是结构蛋白。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A02"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A04",
+    "type": "ATOMIC",
+    "content": "绝大多数酶的化学本质是蛋白质，具有催化功能。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [],
+    "suggestedExamType": "功能理解 / 事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A05",
+    "type": "ATOMIC",
+    "content": "有些蛋白质具有运输物质的功能（运输功能）。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A06"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A06",
+    "type": "ATOMIC",
+    "content": "血红蛋白是一种运输蛋白，能运输氧气。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A05"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A07",
+    "type": "ATOMIC",
+    "content": "有些蛋白质具有调节机体生命活动的功能（调节功能）。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A08"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A08",
+    "type": "ATOMIC",
+    "content": "胰岛素是一种蛋白质类激素，能调节血糖。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A07"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A09",
+    "type": "ATOMIC",
+    "content": "有些蛋白质具有免疫功能。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A10"
+    ],
+    "suggestedExamType": "功能理解",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T01-A10",
+    "type": "ATOMIC",
+    "content": "抗体是蛋白质，可以帮助人体抵御病菌和病毒等抗原的侵害。",
+    "parentId": "BIO-B1-C02-S04-T01",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A09"
+    ],
+    "suggestedExamType": "事实举例",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02",
+    "type": "TOPIC",
+    "title": "蛋白质的基本组成单位——氨基酸",
+    "parentId": "BIO-B1-C02-S04"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A01",
+    "type": "ATOMIC",
+    "content": "氨基酸是组成蛋白质的基本单位。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T03-A01"
+    ],
+    "suggestedExamType": "核心概念",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A02",
+    "type": "ATOMIC",
+    "content": "每种氨基酸分子至少都含有一个氨基（—NH2）和一个羧基（—COOH）。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A03"
+    ],
+    "suggestedExamType": "结构通式",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A03",
+    "type": "ATOMIC",
+    "content": "氨基酸的氨基和羧基都连接在同一个中心碳原子上。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A02"
+    ],
+    "suggestedExamType": "结构通式",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A04",
+    "type": "ATOMIC",
+    "content": "氨基酸种类的不同取决于其侧链基团（R基）的不同。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A01"
+    ],
+    "suggestedExamType": "结构辨析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A05",
+    "type": "ATOMIC",
+    "content": "组成人体蛋白质的氨基酸约有21种。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A06",
+      "BIO-B1-C02-S04-T02-A07"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A06",
+    "type": "ATOMIC",
+    "content": "必需氨基酸是人体细胞不能合成，必须从外界环境中获取的氨基酸。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A07"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T02-A07",
+    "type": "ATOMIC",
+    "content": "非必需氨基酸是人体细胞能够合成的氨基酸。",
+    "parentId": "BIO-B1-C02-S04-T02",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A06"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T03",
+    "type": "TOPIC",
+    "title": "蛋白质的形成过程",
+    "parentId": "BIO-B1-C02-S04"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T03-A01",
+    "type": "ATOMIC",
+    "content": "氨基酸通过脱水缩合反应形成蛋白质。",
+    "parentId": "BIO-B1-C02-S04-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A01",
+      "BIO-B1-C02-S04-T03-A02"
+    ],
+    "suggestedExamType": "核心过程",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T03-A02",
+    "type": "ATOMIC",
+    "content": "脱水缩合是指一个氨基酸的羧基和另一个氨基酸的氨基相连接，并脱去一分子水的过程。",
+    "parentId": "BIO-B1-C02-S04-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T03-A01",
+      "BIO-B1-C02-S04-T03-A03"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T03-A03",
+    "type": "ATOMIC",
+    "content": "连接两个氨基酸分子的化学键叫作肽键。",
+    "parentId": "BIO-B1-C02-S04-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T03-A02",
+      "BIO-B1-C02-S04-T03-A04"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T03-A04",
+    "type": "ATOMIC",
+    "content": "肽键的化学结构式是—CO—NH—。",
+    "parentId": "BIO-B1-C02-S04-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T03-A03"
+    ],
+    "suggestedExamType": "结构记忆",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T03-A05",
+    "type": "ATOMIC",
+    "content": "由多个氨基酸脱水缩合形成的链状结构称为多肽（或肽链）。",
+    "parentId": "BIO-B1-C02-S04-T03",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T03-A01"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04",
+    "type": "TOPIC",
+    "title": "蛋白质的结构与功能多样性",
+    "parentId": "BIO-B1-C02-S04"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A01",
+    "type": "ATOMIC",
+    "content": "蛋白质结构多样性的直接原因之一是组成蛋白质的氨基酸的种类、数目、排列顺序不同。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T02-A04",
+      "BIO-B1-C02-S04-T04-A02",
+      "BIO-B1-C02-S04-T04-A03"
+    ],
+    "suggestedExamType": "原因分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A02",
+    "type": "ATOMIC",
+    "content": "蛋白质结构多样性的直接原因之二是肽链的盘曲、折叠方式及其形成的空间结构千差万别。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A01",
+      "BIO-B1-C02-S04-T04-A03"
+    ],
+    "suggestedExamType": "原因分析",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A03",
+    "type": "ATOMIC",
+    "content": "蛋白质的结构多样性决定了其功能多样性。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T01-A01",
+      "BIO-B1-C02-S04-T04-A01",
+      "BIO-B1-C02-S04-T04-A02",
+      "BIO-B1-C02-S04-T04-A04"
+    ],
+    "suggestedExamType": "核心关系",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A04",
+    "type": "ATOMIC",
+    "content": "蛋白质的特定空间结构是其实现特定功能的基础。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A03",
+      "BIO-B1-C02-S04-T04-A05"
+    ],
+    "suggestedExamType": "核心关系",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A05",
+    "type": "ATOMIC",
+    "content": "蛋白质变性是指其在物理或化学因素作用下，特定空间结构被破坏，导致生物活性丧失的现象。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A04",
+      "BIO-B1-C02-S04-T04-A06"
+    ],
+    "suggestedExamType": "概念定义",
+    "suggestedDifficulty": "中"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A06",
+    "type": "ATOMIC",
+    "content": "高温、过酸、过碱、重金属盐等因素可导致蛋白质变性。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A05"
+    ],
+    "suggestedExamType": "事实记忆",
+    "suggestedDifficulty": "易"
+  },
+  {
+    "kpid": "BIO-B1-C02-S04-T04-A07",
+    "type": "ATOMIC",
+    "content": "蛋白质变性后其一级结构（氨基酸序列）通常不发生改变。",
+    "parentId": "BIO-B1-C02-S04-T04",
+    "relatedKpids": [
+      "BIO-B1-C02-S04-T04-A05"
+    ],
+    "suggestedExamType": "概念辨析 / 易错点",
+    "suggestedDifficulty": "难"
+  }
+]
